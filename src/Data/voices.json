@@ -1,0 +1,4209 @@
+[
+  {
+    "Name": "团子 2.0",
+    "Id": "zh_female_tuanzi_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Vivi 2.0",
+    "Id": "zh_female_vv_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "小何 2.0",
+    "Id": "zh_female_xiaohe_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "云舟 2.0",
+    "Id": "zh_male_m191_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "小天 2.0",
+    "Id": "zh_male_taocheng_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "刘飞 2.0",
+    "Id": "zh_male_liufei_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "魅力苏菲 2.0",
+    "Id": "zh_female_sophie_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "清新女声 2.0",
+    "Id": "zh_female_qingxinnvsheng_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "知性灿灿 2.0",
+    "Id": "zh_female_cancan_uranus_bigtts",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "撒娇学妹 2.0",
+    "Id": "zh_female_sajiaoxuemei_uranus_bigtts",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "甜美小源 2.0",
+    "Id": "zh_female_tianmeixiaoyuan_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "甜美桃子 2.0",
+    "Id": "zh_female_tianmeitaozi_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "爽快思思 2.0",
+    "Id": "zh_female_shuangkuaisisi_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "佩奇猪 2.0",
+    "Id": "zh_female_peiqi_uranus_bigtts",
+    "Category": "视频配音",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "邻家女孩 2.0",
+    "Id": "zh_female_linjianvhai_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "少年梓辛 2.0",
+    "Id": "zh_male_shaonianzixin_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "猴哥 2.0",
+    "Id": "zh_male_sunwukong_uranus_bigtts",
+    "Category": "视频配音",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Tina老师 2.0",
+    "Id": "zh_female_yingyujiaoxue_uranus_bigtts",
+    "Category": "教育场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "暖阳女声 2.0",
+    "Id": "zh_female_kefunvsheng_uranus_bigtts",
+    "Category": "客服场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "儿童绘本 2.0",
+    "Id": "zh_female_xiaoxue_uranus_bigtts",
+    "Category": "有声阅读",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "大壹 2.0",
+    "Id": "zh_male_dayi_uranus_bigtts",
+    "Category": "视频配音",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "黑猫侦探社咪仔 2.0",
+    "Id": "zh_female_mizai_uranus_bigtts",
+    "Category": "视频配音",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "鸡汤女 2.0",
+    "Id": "zh_female_jitangnv_uranus_bigtts",
+    "Category": "视频配音",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "魅力女友 2.0",
+    "Id": "zh_female_meilinvyou_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "流畅女声 2.0",
+    "Id": "zh_female_liuchangnv_uranus_bigtts",
+    "Category": "视频配音",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "儒雅逸辰 2.0",
+    "Id": "zh_male_ruyayichen_uranus_bigtts",
+    "Category": "视频配音",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Tim",
+    "Id": "en_male_tim_uranus_bigtts",
+    "Category": "外语音色",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Dacey",
+    "Id": "en_female_dacey_uranus_bigtts",
+    "Category": "外语音色",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Stokie",
+    "Id": "en_female_stokie_uranus_bigtts",
+    "Category": "外语音色",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "温柔妈妈 2.0",
+    "Id": "zh_female_wenroumama_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "解说小明 2.0",
+    "Id": "zh_male_jieshuoxiaoming_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "TVB女声 2.0",
+    "Id": "zh_female_tvbnv_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "译制片男 2.0",
+    "Id": "zh_male_yizhipiannan_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "俏皮女声 2.0",
+    "Id": "zh_female_qiaopinv_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "直率英子 2.0",
+    "Id": "zh_female_zhishuaiyingzi_uranus_bigtts",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "邻家男孩 2.0",
+    "Id": "zh_male_linjiananhai_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "四郎 2.0",
+    "Id": "zh_male_silang_uranus_bigtts",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "儒雅青年 2.0",
+    "Id": "zh_male_ruyaqingnian_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "擎苍 2.0",
+    "Id": "zh_male_qingcang_uranus_bigtts",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "熊二 2.0",
+    "Id": "zh_male_xionger_uranus_bigtts",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "樱桃丸子 2.0",
+    "Id": "zh_female_yingtaowanzi_uranus_bigtts",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "温暖阿虎 2.0",
+    "Id": "zh_male_wennuanahu_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "奶气萌娃 2.0",
+    "Id": "zh_male_naiqimengwa_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "婆婆 2.0",
+    "Id": "zh_female_popo_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "高冷御姐 2.0",
+    "Id": "zh_female_gaolengyujie_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "傲娇霸总 2.0",
+    "Id": "zh_male_aojiaobazong_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "懒音绵宝 2.0",
+    "Id": "zh_male_lanyinmianbao_uranus_bigtts",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "反卷青年 2.0",
+    "Id": "zh_male_fanjuanqingnian_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "温柔淑女 2.0",
+    "Id": "zh_female_wenroushunv_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "古风少御 2.0",
+    "Id": "zh_female_gufengshaoyu_uranus_bigtts",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "活力小哥 2.0",
+    "Id": "zh_male_huolixiaoge_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "霸气青叔 2.0",
+    "Id": "zh_male_baqiqingshu_uranus_bigtts",
+    "Category": "有声阅读",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "悬疑解说 2.0",
+    "Id": "zh_male_xuanyijieshuo_uranus_bigtts",
+    "Category": "有声阅读",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "萌丫头 2.0",
+    "Id": "zh_female_mengyatou_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "贴心女声 2.0",
+    "Id": "zh_female_tiexinnvsheng_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "鸡汤妹妹 2.0",
+    "Id": "zh_female_jitangmei_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "磁性解说男声 2.0",
+    "Id": "zh_male_cixingjieshuonan_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "亮嗓萌仔 2.0",
+    "Id": "zh_male_liangsangmengzai_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "开朗姐姐 2.0",
+    "Id": "zh_female_kailangjiejie_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "高冷沉稳 2.0",
+    "Id": "zh_male_gaolengchenwen_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "深夜播客 2.0",
+    "Id": "zh_male_shenyeboke_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "鲁班七号 2.0",
+    "Id": "zh_male_lubanqihao_uranus_bigtts",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "娇喘女声 2.0",
+    "Id": "zh_female_jiaochuannv_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "林潇 2.0",
+    "Id": "zh_female_linxiao_uranus_bigtts",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "玲玲姐姐 2.0",
+    "Id": "zh_female_lingling_uranus_bigtts",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "春日部姐姐 2.0",
+    "Id": "zh_female_chunribu_uranus_bigtts",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "唐僧 2.0",
+    "Id": "zh_male_tangseng_uranus_bigtts",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "庄周 2.0",
+    "Id": "zh_male_zhuangzhou_uranus_bigtts",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "开朗弟弟 2.0",
+    "Id": "zh_male_kailangdidi_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "猪八戒 2.0",
+    "Id": "zh_male_zhubajie_uranus_bigtts",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "感冒电音姐姐 2.0",
+    "Id": "zh_female_ganmaodianyin_uranus_bigtts",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "谄媚女声 2.0",
+    "Id": "zh_female_chanmeinv_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "女雷神 2.0",
+    "Id": "zh_female_nvleishen_uranus_bigtts",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "亲切女声 2.0",
+    "Id": "zh_female_qinqienv_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "快乐小东 2.0",
+    "Id": "zh_male_kuailexiaodong_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "开朗学长 2.0",
+    "Id": "zh_male_kailangxuezhang_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "悠悠君子 2.0",
+    "Id": "zh_male_youyoujunzi_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "文静毛毛 2.0",
+    "Id": "zh_female_wenjingmaomao_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "知性女声 2.0",
+    "Id": "zh_female_zhixingnv_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "清爽男大 2.0",
+    "Id": "zh_male_qingshuangnanda_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "渊博小叔 2.0",
+    "Id": "zh_male_yuanboxiaoshu_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "阳光青年 2.0",
+    "Id": "zh_male_yangguangqingnian_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "清澈梓梓 2.0",
+    "Id": "zh_female_qingchezizi_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "甜美悦悦 2.0",
+    "Id": "zh_female_tianmeiyueyue_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "心灵鸡汤 2.0",
+    "Id": "zh_female_xinlingjitang_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "温柔小哥 2.0",
+    "Id": "zh_male_wenrouxiaoge_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "柔美女友 2.0",
+    "Id": "zh_female_roumeinvyou_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "东方浩然 2.0",
+    "Id": "zh_male_dongfanghaoran_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "温柔小雅 2.0",
+    "Id": "zh_female_wenrouxiaoya_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "天才童声 2.0",
+    "Id": "zh_male_tiancaitongsheng_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "武则天 2.0",
+    "Id": "zh_female_wuzetian_uranus_bigtts",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "顾姐 2.0",
+    "Id": "zh_female_gujie_uranus_bigtts",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "广告解说 2.0",
+    "Id": "zh_male_guanggaojieshuo_uranus_bigtts",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "少儿故事 2.0",
+    "Id": "zh_female_shaoergushi_uranus_bigtts",
+    "Category": "有声阅读",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Charlie 2.0",
+    "Id": "ICL_uranus_en_female_charlie_tob",
+    "Category": "外语音色",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Ethan 2.0",
+    "Id": "ICL_uranus_en_male_ethan_tob",
+    "Category": "外语音色",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Alastor 2.0",
+    "Id": "ICL_uranus_en_male_alastor_tob",
+    "Category": "外语音色",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Chucky 2.0",
+    "Id": "ICL_uranus_en_male_chucky_tob",
+    "Category": "外语音色",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Noah 2.0",
+    "Id": "ICL_uranus_en_male_noah_tob",
+    "Category": "外语音色",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Jigsaw 2.0",
+    "Id": "ICL_uranus_en_male_jigsaw_tob",
+    "Category": "外语音色",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Clown Man 2.0",
+    "Id": "ICL_uranus_en_male_clown_man_tob",
+    "Category": "外语音色",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Cartoon Chef 2.0",
+    "Id": "ICL_uranus_en_male_cartoon_chef_tob",
+    "Category": "外语音色",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Frosty Man 2.0",
+    "Id": "ICL_uranus_en_male_frosty_man_tob",
+    "Category": "外语音色",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "The Grinch 2.0",
+    "Id": "ICL_uranus_en_male_the_grinch_tob",
+    "Category": "外语音色",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Kevin McCallister 2.0",
+    "Id": "ICL_uranus_en_male_kevin_mccallister_tob",
+    "Category": "外语音色",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Michael 2.0",
+    "Id": "ICL_uranus_en_male_michael_tob",
+    "Category": "外语音色",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Big Boogie 2.0",
+    "Id": "ICL_uranus_en_male_big_boogie_tob",
+    "Category": "外语音色",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Xavier 2.0",
+    "Id": "ICL_uranus_en_male_xavier_tob",
+    "Category": "外语音色",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Zayne 2.0",
+    "Id": "ICL_uranus_en_male_zayne_tob",
+    "Category": "外语音色",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "客服婉君 2.0",
+    "Id": "ICL_uranus_zh_female_kefuwanjun_tob",
+    "Category": "客服场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "营销小楠 2.0",
+    "Id": "ICL_uranus_zh_female_yingxiaokefu_v2_tob",
+    "Category": "客服场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "客服阿诚 2.0",
+    "Id": "ICL_uranus_zh_male_zhuanyefuwu_xiaodai_tob",
+    "Category": "客服场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "沉稳悠悠 2.0",
+    "Id": "ICL_uranus_zh_female_cuishouxieshang_tob",
+    "Category": "客服场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "外呼阿明 2.0",
+    "Id": "ICL_uranus_zh_male_cuishoutixing_dongbei_tob",
+    "Category": "客服场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "活力小满 2.0",
+    "Id": "ICL_uranus_zh_female_kefuhuoliyingxiao_v1_tob",
+    "Category": "客服场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "凌厉霜霜 2.0",
+    "Id": "ICL_uranus_zh_female_kefuyanlicuishou_v1_tob",
+    "Category": "客服场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "客服书涵 2.0",
+    "Id": "ICL_uranus_zh_female_guwenzhuanhua_4vo_v1_tob",
+    "Category": "客服场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "傲娇女友 2.0",
+    "Id": "ICL_uranus_zh_female_aojiaonvyou_tob",
+    "Category": "角色扮演,S2S\\-SC",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "傲慢娇声 2.0",
+    "Id": "ICL_uranus_zh_female_aomanjiaosheng_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "邪魅女王 2.0",
+    "Id": "ICL_uranus_zh_female_xiemeinvwang_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "病娇姐姐 2.0",
+    "Id": "ICL_uranus_zh_female_bingjiaojiejie_tob",
+    "Category": "角色扮演,S2S\\-SC",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "病娇萌妹 2.0",
+    "Id": "ICL_uranus_zh_female_bingjiaomengmei_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "病弱少女 2.0",
+    "Id": "ICL_uranus_zh_female_bingruoshaonv_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "成熟温柔 2.0",
+    "Id": "ICL_uranus_zh_female_chengshuwenrou_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "成熟姐姐 2.0",
+    "Id": "ICL_uranus_zh_female_chengshujiejie_tob",
+    "Category": "角色扮演,S2S\\-SC",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "纯真少女 2.0",
+    "Id": "ICL_uranus_zh_female_chunzhenshaonv_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "纯澈女生 2.0",
+    "Id": "ICL_uranus_zh_female_chunchenvsheng_tob",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "妩媚可人 2.0",
+    "Id": "ICL_uranus_zh_female_wumeikeren_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "乖巧可儿 2.0",
+    "Id": "ICL_uranus_zh_female_guaiqiaokeer_tob",
+    "Category": "客服场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "和蔼奶奶 2.0",
+    "Id": "ICL_uranus_zh_female_heainainai_tob",
+    "Category": "视频配音",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "活泼刁蛮 2.0",
+    "Id": "ICL_uranus_zh_female_huopodiaoman_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "活泼女孩 2.0",
+    "Id": "ICL_uranus_zh_female_huoponvhai_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "娇憨女王 2.0",
+    "Id": "ICL_uranus_zh_female_jiaohannvwang_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "娇弱萝莉 2.0",
+    "Id": "ICL_uranus_zh_female_jiaoruoluoli_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "假小子 2.0",
+    "Id": "ICL_uranus_zh_female_jiaxiaozi_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "精灵向导 2.0",
+    "Id": "ICL_uranus_zh_female_jinglingxiangdao_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "开朗婷婷 2.0",
+    "Id": "ICL_uranus_zh_female_kailangtingting_tob",
+    "Category": "客服场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "外呼凌凌 2.0",
+    "Id": "ICL_uranus_zh_female_kefunvshengwenhecuishou_tob",
+    "Category": "客服场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "开心小鸿 2.0",
+    "Id": "ICL_uranus_zh_female_kaixinxiaohong_tob",
+    "Category": "客服场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "可爱女生 2.0",
+    "Id": "ICL_uranus_zh_female_keainvsheng_tob",
+    "Category": "角色扮演,S2S\\-SC",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "灵动欣欣 2.0",
+    "Id": "ICL_uranus_zh_female_lingdongxinxin_tob",
+    "Category": "客服场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "邻居阿姨 2.0",
+    "Id": "ICL_uranus_zh_female_linjuayi_tob",
+    "Category": "视频配音",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "甜美娇俏 2.0",
+    "Id": "ICL_uranus_zh_female_tianmeijiaoqiao_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "清冷高雅 2.0",
+    "Id": "ICL_uranus_zh_female_qinglenggaoya_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "理性圆子 2.0",
+    "Id": "ICL_uranus_zh_female_lixingyuanzi_tob",
+    "Category": "客服场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "性感魅惑 2.0",
+    "Id": "ICL_uranus_zh_female_xingganmeihuo_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "暖心茜茜 2.0",
+    "Id": "ICL_uranus_zh_female_nuanxinqianqian_tob",
+    "Category": "客服场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "暖心学姐 2.0",
+    "Id": "ICL_uranus_zh_female_nuanxinxuejie_tob",
+    "Category": "角色扮演,S2S\\-SC",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "清甜莓莓 2.0",
+    "Id": "ICL_uranus_zh_female_qingtianmeimei_tob",
+    "Category": "客服场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "清甜桃桃 2.0",
+    "Id": "ICL_uranus_zh_female_qingtiantaotao_tob",
+    "Category": "客服场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "清晰小雪 2.0",
+    "Id": "ICL_uranus_zh_female_qingxixiaoxue_tob",
+    "Category": "客服场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "倾心少女 2.0",
+    "Id": "ICL_uranus_zh_female_qingxinshaonv_tob",
+    "Category": "视频配音",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "柔骨魂师 2.0",
+    "Id": "ICL_uranus_zh_female_rouguhunshi_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "软萌糖糖 2.0",
+    "Id": "ICL_uranus_zh_female_ruanmengtangtang_tob",
+    "Category": "客服场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "软萌团子 2.0",
+    "Id": "ICL_uranus_zh_female_ruanmengtuanzi_tob",
+    "Category": "客服场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "甜美活泼 2.0",
+    "Id": "ICL_uranus_zh_female_tianmeihuopo_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "甜美小橘 2.0",
+    "Id": "ICL_uranus_zh_female_tianmeixiaoju_tob",
+    "Category": "客服场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "甜美小雨 2.0",
+    "Id": "ICL_uranus_zh_female_tianmeixiaoyu_tob",
+    "Category": "客服场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "调皮公主 2.0",
+    "Id": "ICL_uranus_zh_female_tiaopigongzhu_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "贴心女友 2.0",
+    "Id": "ICL_uranus_zh_female_tiexinnvyou_tob",
+    "Category": "角色扮演,S2S\\-SC",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "温柔女神 2.0",
+    "Id": "ICL_uranus_zh_female_wenrounvshen_tob",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "温柔文雅 2.0",
+    "Id": "ICL_uranus_zh_female_wenrouwenya_tob",
+    "Category": "通用场景,S2S\\-SC",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "知心姐姐 2.0",
+    "Id": "ICL_uranus_zh_female_zhixinjiejie_tob",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "妩媚御姐 2.0",
+    "Id": "ICL_uranus_zh_female_wumeiyujie_tob",
+    "Category": "角色扮演,S2S\\-SC",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "元气甜妹 2.0",
+    "Id": "ICL_uranus_zh_female_yuanqitianmei_tob",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "邪魅御姐 2.0",
+    "Id": "ICL_uranus_zh_female_xiemeiyujie_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "性感御姐 2.0",
+    "Id": "ICL_uranus_zh_female_xingganyujie_tob",
+    "Category": "角色扮演,S2S\\-SC",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "秀丽倩倩 2.0",
+    "Id": "ICL_uranus_zh_female_xiuliqianqian_tob",
+    "Category": "客服场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "贴心闺蜜 2.0",
+    "Id": "ICL_uranus_zh_female_tiexinguimi_tob",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "贴心妹妹 2.0",
+    "Id": "ICL_uranus_zh_female_tiexinmeimei_tob",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "温柔白月光 2.0",
+    "Id": "ICL_uranus_zh_female_wenroubaiyueguang_tob",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "初恋女友 2.0",
+    "Id": "ICL_uranus_zh_female_chuliannvyou_tob",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "知性温婉 2.0",
+    "Id": "ICL_uranus_zh_female_zhixingwenwan_tob",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "傲气凌人 2.0",
+    "Id": "ICL_uranus_zh_male_aoqilingren_tob",
+    "Category": "角色扮演,S2S\\-SC",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "黯刃秦主 2.0",
+    "Id": "ICL_uranus_zh_male_anrenqinzhu_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "傲娇公子 2.0",
+    "Id": "ICL_uranus_zh_male_aojiaogongzi_tob",
+    "Category": "角色扮演,S2S\\-SC",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "傲娇精英 2.0",
+    "Id": "ICL_uranus_zh_male_aojiaojingying_tob",
+    "Category": "角色扮演,S2S\\-SC",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "傲慢青年 2.0",
+    "Id": "ICL_uranus_zh_male_aomanqingnian_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "傲慢少爷 2.0",
+    "Id": "ICL_uranus_zh_male_aomanshaoye_tob",
+    "Category": "角色扮演,S2S\\-SC",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "枕边低语 2.0",
+    "Id": "ICL_uranus_zh_male_zhenbiandiyu_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "霸道少爷 2.0",
+    "Id": "ICL_uranus_zh_male_badaoshaoye_tob",
+    "Category": "角色扮演,S2S\\-SC",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "霸道总裁 2.0",
+    "Id": "ICL_uranus_zh_male_badaozongcai_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "病娇白莲 2.0",
+    "Id": "ICL_uranus_zh_male_bingjiaobailian_tob",
+    "Category": "角色扮演,S2S\\-SC",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "病娇弟弟 2.0",
+    "Id": "ICL_uranus_zh_male_bingjiaodidi_tob",
+    "Category": "角色扮演,S2S\\-SC",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "病娇哥哥 2.0",
+    "Id": "ICL_uranus_zh_male_bingjiaogege_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "病娇男友 2.0",
+    "Id": "ICL_uranus_zh_male_bingjiaonanyou_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "病娇少年 2.0",
+    "Id": "ICL_uranus_zh_male_bingjiaoshaonian_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "病弱公子 2.0",
+    "Id": "ICL_uranus_zh_male_bingruogongzi_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "病弱少年 2.0",
+    "Id": "ICL_uranus_zh_male_bingruoshaonian_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "不羁青年 2.0",
+    "Id": "ICL_uranus_zh_male_bujiqingnian_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "醇厚低音 2.0",
+    "Id": "ICL_uranus_zh_male_chunhoudiyin_tob",
+    "Category": "视频配音",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "咆哮小哥 2.0",
+    "Id": "ICL_uranus_zh_male_paoxiaoxiaoge_tob",
+    "Category": "视频配音",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "炀炀 2.0",
+    "Id": "ICL_uranus_zh_male_yangyang_tob",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "孱弱少爷 2.0",
+    "Id": "ICL_uranus_zh_male_chanruoshaoye_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "成熟总裁 2.0",
+    "Id": "ICL_uranus_zh_male_chengshuzongcai_tob",
+    "Category": "角色扮演,S2S\\-SC",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "沉稳明仔 2.0",
+    "Id": "ICL_uranus_zh_male_chenwenmingzai_tob",
+    "Category": "客服场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "清逸苏感 2.0",
+    "Id": "ICL_uranus_zh_male_qingyisugan_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "纯真学弟 2.0",
+    "Id": "ICL_uranus_zh_male_chunzhenxuedi_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "磁性男嗓 2.0",
+    "Id": "ICL_uranus_zh_male_cixingnansang_tob",
+    "Category": "角色扮演,S2S\\-SC",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "醋精男生 2.0",
+    "Id": "ICL_uranus_zh_male_cujingnansheng_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "醋精男友 2.0",
+    "Id": "ICL_uranus_zh_male_cujingnanyou_tob",
+    "Category": "角色扮演,S2S\\-SC",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "低音沉郁 2.0",
+    "Id": "ICL_uranus_zh_male_diyinchenyu_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "风发少年 2.0",
+    "Id": "ICL_uranus_zh_male_fengfashaonian_tob",
+    "Category": "角色扮演,S2S\\-SC",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "儒雅公子 2.0",
+    "Id": "ICL_uranus_zh_male_ruyagongzi_tob",
+    "Category": "有声阅读",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "腹黑公子 2.0",
+    "Id": "ICL_uranus_zh_male_fuheigongzi_tob",
+    "Category": "角色扮演,S2S\\-SC",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "干净少年 2.0",
+    "Id": "ICL_uranus_zh_male_ganjingshaonian_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "高冷总裁 2.0",
+    "Id": "ICL_uranus_zh_male_gaolengzongcai_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "孤傲公子 2.0",
+    "Id": "ICL_uranus_zh_male_guaogongzi_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "孤高公子 2.0",
+    "Id": "ICL_uranus_zh_male_gugaogongzi_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "诡异神秘 2.0",
+    "Id": "ICL_uranus_zh_male_guiyishenmi_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "固执病娇 2.0",
+    "Id": "ICL_uranus_zh_male_guzhibingjiao_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "憨厚敦实 2.0",
+    "Id": "ICL_uranus_zh_male_hanhoudunshi_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "活力青年 2.0",
+    "Id": "ICL_uranus_zh_male_huoliqingnian_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "活泼男友 2.0",
+    "Id": "ICL_uranus_zh_male_huoponanyou_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "活泼爽朗 2.0",
+    "Id": "ICL_uranus_zh_male_huoposhuanglang_tob",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "胡子叔叔 2.0",
+    "Id": "ICL_uranus_zh_male_huzishushu_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "机甲智能 2.0",
+    "Id": "ICL_uranus_zh_male_jijiazhineng_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "精英青年 2.0",
+    "Id": "ICL_uranus_zh_male_jingyingqingnian_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "俊逸公子 2.0",
+    "Id": "ICL_uranus_zh_male_junyigongzi_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "开朗轻快 2.0",
+    "Id": "ICL_uranus_zh_male_kailangqingkuai_tob",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "开朗青年 2.0",
+    "Id": "ICL_uranus_zh_male_kailangqingnian_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "蓝银草魂师 2.0",
+    "Id": "ICL_uranus_zh_male_lanyincaohunshi_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "冷傲总裁 2.0",
+    "Id": "ICL_uranus_zh_male_lengaozongcai_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "冷淡疏离 2.0",
+    "Id": "ICL_uranus_zh_male_lengdanshuli_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "冷峻高智 2.0",
+    "Id": "ICL_uranus_zh_male_lengjungaozhi_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "冷峻上司 2.0",
+    "Id": "ICL_uranus_zh_male_lengjunshangsi_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "冷酷哥哥 2.0",
+    "Id": "ICL_uranus_zh_male_lengkugege_tob",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "冷脸兄长 2.0",
+    "Id": "ICL_uranus_zh_male_lenglianxiongzhang_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "冷脸学霸 2.0",
+    "Id": "ICL_uranus_zh_male_lenglianxueba_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "冷漠男友 2.0",
+    "Id": "ICL_uranus_zh_male_lengmonanyou_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "冷漠兄长 2.0",
+    "Id": "ICL_uranus_zh_male_lengmoxiongzhang_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "凌云青年 2.0",
+    "Id": "ICL_uranus_zh_male_lingyunqingnian_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "清冷矜贵 2.0",
+    "Id": "ICL_uranus_zh_male_qinglengjingui_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "绿茶小哥 2.0",
+    "Id": "ICL_uranus_zh_male_lvchaxiaoge_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "懵懂青年 2.0",
+    "Id": "ICL_uranus_zh_male_mengdongqingnian_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "闷油瓶小哥 2.0",
+    "Id": "ICL_uranus_zh_male_menyoupingxiaoge_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "嚣张小哥 2.0",
+    "Id": "ICL_uranus_zh_male_xiaozhangxiaoge_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "粘人男友 2.0",
+    "Id": "ICL_uranus_zh_male_nianrennanyou_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "内敛才俊 2.0",
+    "Id": "ICL_uranus_zh_male_neiliancaijun_tob",
+    "Category": "有声阅读",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "暖心体贴 2.0",
+    "Id": "ICL_uranus_zh_male_nuanxintitie_tob",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "翩翩公子 2.0",
+    "Id": "ICL_uranus_zh_male_pianpiangongzi_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "沉稳优雅 2.0",
+    "Id": "ICL_uranus_zh_male_chenwenyouya_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "青涩小生 2.0",
+    "Id": "ICL_uranus_zh_male_qingsexiaosheng_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "青涩青年 2.0",
+    "Id": "ICL_uranus_zh_male_qingseqingnian_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "清爽少年 2.0",
+    "Id": "ICL_uranus_zh_male_qingshuangshaonian_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "清新波波 2.0",
+    "Id": "ICL_uranus_zh_male_qingxinbobo_tob",
+    "Category": "客服场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "亲切青年 2.0",
+    "Id": "ICL_uranus_zh_male_qinqieqingnian_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "亲切小卓 2.0",
+    "Id": "ICL_uranus_zh_male_qinqiexiaozhuo_tob",
+    "Category": "客服场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "清朗温润 2.0",
+    "Id": "ICL_uranus_zh_male_qinglangwenrun_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "热血少年 2.0",
+    "Id": "ICL_uranus_zh_male_rexueshaonian_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "儒雅才俊 2.0",
+    "Id": "ICL_uranus_zh_male_ruyacaijun_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "儒雅君子 2.0",
+    "Id": "ICL_uranus_zh_male_ruyajunzi_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "儒雅总裁 2.0",
+    "Id": "ICL_uranus_zh_male_ruyazongcai_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "撒娇男生 2.0",
+    "Id": "ICL_uranus_zh_male_sajiaonansheng_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "撒娇男友 2.0",
+    "Id": "ICL_uranus_zh_male_sajiaonanyou_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "撒娇粘人 2.0",
+    "Id": "ICL_uranus_zh_male_sajiaonianren_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "洒脱青年 2.0",
+    "Id": "ICL_uranus_zh_male_satuoqingnian_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "少年将军 2.0",
+    "Id": "ICL_uranus_zh_male_shaonianjiangjun_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "深沉总裁 2.0",
+    "Id": "ICL_uranus_zh_male_shenchenzongcai_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "机灵小伙 2.0",
+    "Id": "ICL_uranus_zh_male_jilingxiaohuo_tob",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "神秘法师 2.0",
+    "Id": "ICL_uranus_zh_male_shenmifashi_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "率真小伙 2.0",
+    "Id": "ICL_uranus_zh_male_shuaizhenxiaohuo_tob",
+    "Category": "通用场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "爽朗小阳 2.0",
+    "Id": "ICL_uranus_zh_male_shuanglangxiaoyang_tob",
+    "Category": "客服场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "低沉缱绻 2.0",
+    "Id": "ICL_uranus_zh_male_dichenqianquan_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "斯文青年 2.0",
+    "Id": "ICL_uranus_zh_male_siwenqingnian_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "甜系男友 2.0",
+    "Id": "ICL_uranus_zh_male_tianxinanyou_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "贴心男友 2.0",
+    "Id": "ICL_uranus_zh_male_tiexinnanyou_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "温柔男同桌 2.0",
+    "Id": "ICL_uranus_zh_male_wenrounantongzhuo_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "温柔男友 2.0",
+    "Id": "ICL_uranus_zh_male_wenrounanyou_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "温柔学长 2.0",
+    "Id": "ICL_uranus_zh_male_wenrouxuezhang_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "温润学者 2.0",
+    "Id": "ICL_uranus_zh_male_wenrunxuezhe_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "温顺少年 2.0",
+    "Id": "ICL_uranus_zh_male_wenshunshaonian_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "寡言小哥 2.0",
+    "Id": "ICL_uranus_zh_male_guayanxiaoge_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "小侯爷 2.0",
+    "Id": "ICL_uranus_zh_male_xiaohouye_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "奶气小生 2.0",
+    "Id": "ICL_uranus_zh_male_naiqixiaosheng_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "潇洒随性 2.0",
+    "Id": "ICL_uranus_zh_male_xiaosasuixing_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "温柔内敛 2.0",
+    "Id": "ICL_uranus_zh_male_wenrouneilian_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "学霸男同桌 2.0",
+    "Id": "ICL_uranus_zh_male_xuebanantongzhuo_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "学霸同桌 2.0",
+    "Id": "ICL_uranus_zh_male_xuebatongzhuo_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "阳光洋洋 2.0",
+    "Id": "ICL_uranus_zh_male_yangguangyangyang_tob",
+    "Category": "客服场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "温暖少年 2.0",
+    "Id": "ICL_uranus_zh_male_wennuanshaonian_tob",
+    "Category": "有声阅读",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "意气少年 2.0",
+    "Id": "ICL_uranus_zh_male_yiqishaonian_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "油腻大叔 2.0",
+    "Id": "ICL_uranus_zh_male_younidashu_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "幽默大爷 2.0",
+    "Id": "ICL_uranus_zh_male_youmodaye_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "幽默叔叔 2.0",
+    "Id": "ICL_uranus_zh_male_youmoshushu_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "优柔帮主 2.0",
+    "Id": "ICL_uranus_zh_male_youroubangzhu_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "优柔公子 2.0",
+    "Id": "ICL_uranus_zh_male_yourougongzi_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "元气少年 2.0",
+    "Id": "ICL_uranus_zh_male_yuanqishaonian_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "仗剑君子 2.0",
+    "Id": "ICL_uranus_zh_male_zhangjianjunzi_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "仗剑侠客 2.0",
+    "Id": "ICL_uranus_zh_male_zhangjianxiake_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "正直青年 2.0",
+    "Id": "ICL_uranus_zh_male_zhengzhiqingnian_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "直率青年 2.0",
+    "Id": "ICL_uranus_zh_male_zhishuaiqingnian_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "中二青年 2.0",
+    "Id": "ICL_uranus_zh_male_zhongerqingnian_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "自负青年 2.0",
+    "Id": "ICL_uranus_zh_male_zifuqingnian_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "自信青年 2.0",
+    "Id": "ICL_uranus_zh_male_zixinqingnian_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "天才同桌 2.0",
+    "Id": "ICL_uranus_zh_male_tiancaitongzhuo_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "清新沐沐 2.0",
+    "Id": "ICL_uranus_zh_male_qingxinmumu_tob",
+    "Category": "客服场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "温婉珊珊 2.0",
+    "Id": "ICL_uranus_zh_female_wenwanshanshan_tob",
+    "Category": "客服场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "热情艾娜 2.0",
+    "Id": "ICL_uranus_zh_female_reqingaina_tob",
+    "Category": "客服场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "爽朗少年 2.0",
+    "Id": "ICL_uranus_zh_male_shuanglangshaonian_tob",
+    "Category": "角色扮演",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "轻盈朵朵 2.0",
+    "Id": "ICL_uranus_zh_female_qingyingduoduo_tob",
+    "Category": "客服场景",
+    "Section": "\"豆包语音合成模型2.0、 S2S-O2.0、 S2S-全双工 \" 音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Cesna",
+    "Id": "id_female_cesna_uranus_bigtts",
+    "Category": "通用场景,客服场景,外语音色,印尼语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Ikbal",
+    "Id": "id_male_ikbal_uranus_bigtts",
+    "Category": "通用场景,客服场景,外语音色,印尼语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Hannah",
+    "Id": "vi_female_f01507b_uranus_bigtts",
+    "Category": "通用场景,客服场景,外语音色,越南语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Mariano",
+    "Id": "es_male_mariano_uranus_bigtts",
+    "Category": "通用场景,外语音色,西班牙语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Romina",
+    "Id": "es_female_romina_uranus_bigtts",
+    "Category": "通用场景,外语音色,西班牙语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Hazeem",
+    "Id": "ms_male_hazeem_uranus_bigtts",
+    "Category": "通用场景,外语音色,马来语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Qis",
+    "Id": "ms_female_qis_uranus_bigtts",
+    "Category": "通用场景,外语音色,马来语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Angpao",
+    "Id": "th_male_angpao_uranus_bigtts",
+    "Category": "通用场景,外语音色,泰语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Elle",
+    "Id": "th_female_elle_uranus_bigtts",
+    "Category": "通用场景,外语音色,泰语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Cake",
+    "Id": "th_female_cake_uranus_bigtts",
+    "Category": "有声阅读,外语音色,泰语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Paran",
+    "Id": "th_male_paran_uranus_bigtts",
+    "Category": "有声阅读,外语音色,泰语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Prisma",
+    "Id": "id_female_prisma_uranus_bigtts",
+    "Category": "有声阅读,外语音色,印尼语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Ryan",
+    "Id": "en_male_ryan_uranus_bigtts",
+    "Category": "有声阅读,外语音色,美式英语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Yusuke",
+    "Id": "ja_male_yusuke_uranus_bigtts",
+    "Category": "有声阅读,外语音色,日语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Jonathan\\-Palad",
+    "Id": "tl_male_jonathan-palad_uranus_bigtts",
+    "Category": "有声阅读,外语音色,菲律宾语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Migu",
+    "Id": "mx_male_migu_uranus_bigtts",
+    "Category": "有声阅读,外语音色,墨西哥西语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Luca",
+    "Id": "it_male_luca_uranus_bigtts",
+    "Category": "有声阅读,外语音色,意大利语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Enzo2",
+    "Id": "it_male_enzo2_uranus_bigtts",
+    "Category": "有声阅读,外语音色,意大利语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Eduardo\\-S",
+    "Id": "pt_male_eduardo-s_uranus_bigtts",
+    "Category": "有声阅读,外语音色,巴西葡萄牙语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Angel",
+    "Id": "es_male_angel_uranus_bigtts",
+    "Category": "有声阅读,外语音色,西班牙语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Francisc",
+    "Id": "es_male_francisc_uranus_bigtts",
+    "Category": "有声阅读,外语音色,西班牙语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Dina",
+    "Id": "ar_female_dina_uranus_bigtts",
+    "Category": "通用场景, 视频配音,外语音色,阿拉伯语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Fatma",
+    "Id": "ar_female_fatma_uranus_bigtts",
+    "Category": "趣味口音,外语音色,阿拉伯语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Youssef",
+    "Id": "ar_male_youssef_uranus_bigtts",
+    "Category": "通用场景,有声阅读,外语音色,阿拉伯语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Stella",
+    "Id": "de_female_bv081_uranus_bigtts",
+    "Category": "教学场景, 客服场景,外语音色,德语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Sven",
+    "Id": "de_male_sven_uranus_bigtts",
+    "Category": "通用场景, 教学场景,外语音色,德语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Rowan",
+    "Id": "en_male_adam-imitation_uranus_bigtts",
+    "Category": "通用场景,有声阅读,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Alberto",
+    "Id": "en_male_alberto_uranus_bigtts",
+    "Category": "通用场景, 教学场景,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Alex",
+    "Id": "en_male_alex_uranus_bigtts",
+    "Category": "通用场景, 视频配音,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Allison",
+    "Id": "en_female_allison_uranus_bigtts",
+    "Category": "视频配音,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Charlotte",
+    "Id": "en_female_authoritative-british_uranus_bigtts",
+    "Category": "教学场景, 视频配音,英式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Margaret",
+    "Id": "en_female_authoritative-informative_uranus_bigtts",
+    "Category": "通用场景,有声阅读,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Jones",
+    "Id": "en_male_bill-jones_uranus_bigtts",
+    "Category": "趣味口音,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Bill",
+    "Id": "en_male_bill_jones_corey_uranus_bigtts",
+    "Category": "通用场景, 视频配音,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Brad_Pitt",
+    "Id": "en_male_brad_pitt_p1_uranus_bigtts",
+    "Category": "通用场景, 视频配音,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Brittney",
+    "Id": "en_female_brittney_uranus_bigtts",
+    "Category": "通用场景, 视频配音,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Zoe",
+    "Id": "en_female_brittney_pimintel_uranus_bigtts",
+    "Category": "有声阅读, 客服场景,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Adrian",
+    "Id": "en_male_bruce_uranus_bigtts",
+    "Category": "通用场景, 视频配音,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Leo",
+    "Id": "en_male_chandler_p1_uranus_bigtts",
+    "Category": "趣味口音,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Bob",
+    "Id": "en_male_cowboy-bob_uranus_bigtts",
+    "Category": "通用场景, 教学场景,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "John",
+    "Id": "en_male_cowboy_john_b_uranus_bigtts",
+    "Category": "趣味口音, 角色扮演,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "David",
+    "Id": "en_male_david_uranus_bigtts",
+    "Category": "通用场景,有声阅读,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Orion",
+    "Id": "en_male_deep-voice_uranus_bigtts",
+    "Category": "趣味口音, 角色扮演,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Julian",
+    "Id": "en_male_diyuwenrounan_uranus_bigtts",
+    "Category": "有声阅读,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Harrison",
+    "Id": "en_male_evil-guy-oxley_uranus_bigtts",
+    "Category": "视频配音,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Jasper",
+    "Id": "en_male_excited-male-voice_uranus_bigtts",
+    "Category": "趣味口音,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Alfred",
+    "Id": "en_male_father-christmas_uranus_bigtts",
+    "Category": "通用场景,有声阅读, 视频配音,英式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Holly",
+    "Id": "en_female_female_tutor_ms-jenny_uranus_bigtts",
+    "Category": "教学场景, 视频配音,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Felix",
+    "Id": "en_male_fernando-martinez_uranus_bigtts",
+    "Category": "通用场景, 教学场景,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Godfather",
+    "Id": "en_male_godfather_uranus_bigtts",
+    "Category": "有声阅读, 角色扮演,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Gollum",
+    "Id": "en_male_gollum_uranus_bigtts",
+    "Category": "角色扮演,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Beau",
+    "Id": "en_male_hades_uranus_bigtts",
+    "Category": "通用场景, 视频配音,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Hayley",
+    "Id": "en_female_hayley_uranus_bigtts",
+    "Category": "教学场景, 视频配音,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Jamie",
+    "Id": "en_male_jamie_uranus_bigtts",
+    "Category": "通用场景, 教学场景, 视频配音,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Jane",
+    "Id": "en_female_jane_uranus_bigtts",
+    "Category": "视频配音,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Jenny",
+    "Id": "en_female_jenny_uranus_bigtts",
+    "Category": "通用场景, 客服场景,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Blaze",
+    "Id": "en_male_jidongchuanjiaoshi_uranus_bigtts",
+    "Category": "趣味口音, 角色扮演,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Jimmy",
+    "Id": "en_male_jimmy_uranus_bigtts",
+    "Category": "通用场景, 视频配音,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Joanne",
+    "Id": "en_female_joanne_uranus_bigtts",
+    "Category": "通用场景,有声阅读, 视频配音,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Joker",
+    "Id": "en_male_joker_uranus_bigtts",
+    "Category": "趣味口音, 视频配音,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Josh",
+    "Id": "en_male_josh_uranus_bigtts",
+    "Category": "视频配音,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Josiah",
+    "Id": "en_male_josh_coery_uranus_bigtts",
+    "Category": "教学场景, 视频配音,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Kevin",
+    "Id": "en_male_kevin_uranus_bigtts",
+    "Category": "教学场景, 视频配音,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Knightley",
+    "Id": "en_male_knightley_uranus_bigtts",
+    "Category": "有声阅读,英式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Lynn",
+    "Id": "en_female_lana_del_rey_kelley_d_p1_uranus_bigtts",
+    "Category": "角色扮演,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Ivy",
+    "Id": "en_female_lana_del_rey_parky_s_p1_uranus_bigtts",
+    "Category": "客服场景,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Marcus",
+    "Id": "en_male_marcus_uranus_bigtts",
+    "Category": "通用场景,有声阅读,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Mel",
+    "Id": "en_female_mel_uranus_bigtts",
+    "Category": "教学场景, 客服场景,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Hank",
+    "Id": "en_male_michael_uranus_bigtts",
+    "Category": "通用场景, 教学场景,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Chip",
+    "Id": "en_male_michael-mouse_uranus_bigtts",
+    "Category": "趣味口音, 角色扮演,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Michael_Kevin",
+    "Id": "en_male_michael_kevin_uranus_bigtts",
+    "Category": "通用场景, 教学场景,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Rory",
+    "Id": "en_male_motivational-coach_uranus_bigtts",
+    "Category": "趣味口音, 视频配音,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Myra",
+    "Id": "en_female_myra_uranus_bigtts",
+    "Category": "教学场景,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Sunny",
+    "Id": "en_female_myra_cmb_uranus_bigtts",
+    "Category": "教学场景, 客服场景,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Blair",
+    "Id": "en_female_nadia_uranus_bigtts",
+    "Category": "通用场景, 视频配音,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Natasha",
+    "Id": "en_female_natasha_uranus_bigtts",
+    "Category": "通用场景, 视频配音,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Elaine",
+    "Id": "en_female_pleasant-female_uranus_bigtts",
+    "Category": "有声阅读,视频配音,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Rachel",
+    "Id": "en_female_rachel_p1_uranus_bigtts",
+    "Category": "趣味口音,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Ronald",
+    "Id": "en_male_ronald_uranus_bigtts",
+    "Category": "有声阅读,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Russell",
+    "Id": "en_male_russell_uranus_bigtts",
+    "Category": "通用场景, 教学场景,英式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Scarlet",
+    "Id": "en_female_scarlet_p1_uranus_bigtts",
+    "Category": "客服场景,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Sharron",
+    "Id": "en_female_sharron_uranus_bigtts",
+    "Category": "趣味口音,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Simba",
+    "Id": "en_male_simba_p1_uranus_bigtts",
+    "Category": "通用场景, 视频配音,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Skye",
+    "Id": "en_female_skye_uranus_bigtts",
+    "Category": "通用场景,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Tom",
+    "Id": "en_male_tom_hiddleston_p1_uranus_bigtts",
+    "Category": "通用场景,有声阅读,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Valentino",
+    "Id": "en_male_valentino_uranus_bigtts",
+    "Category": "通用场景, 视频配音,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Clark",
+    "Id": "en_male_valentino_corey_uranus_bigtts",
+    "Category": "视频配音,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Megan",
+    "Id": "en_female_wenrouzhishijieshuonv_uranus_bigtts",
+    "Category": "客服场景,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Kayla",
+    "Id": "en_female_xinwenjieshuonv_uranus_bigtts",
+    "Category": "角色扮演,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Dylan",
+    "Id": "en_male_yangguangjieshuonan_uranus_bigtts",
+    "Category": "通用场景, 视频配音,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Zendaya",
+    "Id": "en_female_zendaya_p1_uranus_bigtts",
+    "Category": "教学场景, 客服场景,美式英语,外语音色",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Gracie",
+    "Id": "es_female_bv084_uranus_bigtts",
+    "Category": "通用场景, 客服场景,外语音色,西班牙语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Dani",
+    "Id": "es_male_dani_uranus_bigtts",
+    "Category": "有声阅读,视频配音,外语音色,西班牙语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Guillem",
+    "Id": "es_male_guillem_uranus_bigtts",
+    "Category": "有声阅读,外语音色,西班牙语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Marisol",
+    "Id": "es_female_ht_mx_f6_uranus_bigtts",
+    "Category": "通用场景, 视频配音,外语音色,西班牙语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Simone",
+    "Id": "fr_female_fr_bv078_uranus_bigtts",
+    "Category": "通用场景, 视频配音,外语音色,法语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Camille",
+    "Id": "fr_female_fr_f47_uranus_bigtts",
+    "Category": "教学场景, 客服场景,外语音色,法语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Maurice",
+    "Id": "fr_male_fr_m29_uranus_bigtts",
+    "Category": "有声阅读,视频配音,外语音色,法语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Usseau",
+    "Id": "fr_male_usseau_uranus_bigtts",
+    "Category": "通用场景, 客服场景,外语音色,法语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Rocco",
+    "Id": "id_male_bv160_uranus_bigtts",
+    "Category": "通用场景, 视频配音,外语音色,印尼语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Jude",
+    "Id": "id_male_bv160dialogue_uranus_bigtts",
+    "Category": "通用场景, 视频配音,外语音色,印尼语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Hugo",
+    "Id": "id_male_bv160narration_uranus_bigtts",
+    "Category": "有声阅读,视频配音,外语音色,印尼语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Clara",
+    "Id": "id_female_bv161_uranus_bigtts",
+    "Category": "通用场景, 视频配音,外语音色,印尼语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Sylvia",
+    "Id": "id_female_bv161dialogue_uranus_bigtts",
+    "Category": "通用场景, 视频配音,外语音色,印尼语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Celeste",
+    "Id": "id_female_bv161narration_uranus_bigtts",
+    "Category": "通用场景, 视频配音,外语音色,印尼语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Crew",
+    "Id": "id_female_bv164_uranus_bigtts",
+    "Category": "通用场景, 视频配音,外语音色,印尼语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Elian",
+    "Id": "id_male_bv164dialogue_uranus_bigtts",
+    "Category": "视频配音,外语音色,印尼语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Ronan",
+    "Id": "id_male_bv164narration_uranus_bigtts",
+    "Category": "有声阅读,视频配音,外语音色,印尼语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Chloe",
+    "Id": "id_female_f20_uranus_bigtts",
+    "Category": "视频配音,外语音色,印尼语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Han",
+    "Id": "id_male_han_uranus_bigtts",
+    "Category": "通用场景,外语音色,印尼语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Kyle",
+    "Id": "id_male_m08_uranus_bigtts",
+    "Category": "通用场景, 教学场景,外语音色,印尼语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Phulia",
+    "Id": "id_female_phulia_uranus_bigtts",
+    "Category": "通用场景, 视频配音,外语音色,印尼语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Bonnie",
+    "Id": "ja_female_bv024_uranus_bigtts",
+    "Category": "通用场景, 教学场景,外语音色,日语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Poppy",
+    "Id": "ja_female_bv520_uranus_bigtts",
+    "Category": "视频配音, 角色扮演,外语音色,日语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Aoi",
+    "Id": "ja_female_bv521_uranus_bigtts",
+    "Category": "趣味口音, 角色扮演,外语音色,日语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Hana",
+    "Id": "ja_female_bv522_uranus_bigtts",
+    "Category": "通用场景, 教学场景, 客服场景,外语音色,日语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Lily",
+    "Id": "ja_female_bv523_uranus_bigtts",
+    "Category": "趣味口音, 角色扮演,外语音色,日语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Ken",
+    "Id": "ja_male_bv524_uranus_bigtts",
+    "Category": "通用场景, 视频配音,外语音色,日语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Minimi",
+    "Id": "ja_female_minimi_uranus_bigtts",
+    "Category": "通用场景, 视频配音,外语音色,日语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Shirou",
+    "Id": "ja_female_shirou_uranus_bigtts",
+    "Category": "视频配音, 角色扮演,外语音色,日语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Jay",
+    "Id": "ko_male_bv545_uranus_bigtts",
+    "Category": "通用场景, 视频配音,外语音色,韩语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Momo",
+    "Id": "ko_female_bv546_uranus_bigtts",
+    "Category": "视频配音, 角色扮演,外语音色,韩语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Minho",
+    "Id": "ko_male_m03_uranus_bigtts",
+    "Category": "通用场景, 客服场景,外语音色,韩语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Shane",
+    "Id": "ko_male_shane_uranus_bigtts",
+    "Category": "有声阅读, 教学场景, 视频配音,外语音色,韩语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Ham",
+    "Id": "ms_male_ham_uranus_bigtts",
+    "Category": "通用场景, 教学场景,外语音色,马来语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Naim",
+    "Id": "ms_male_naim_uranus_bigtts",
+    "Category": "通用场景, 客服场景,外语音色,马来语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Irene",
+    "Id": "mx_female_bv065_uranus_bigtts",
+    "Category": "教学场景, 视频配音,外语音色,墨西哥西语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Diego",
+    "Id": "mx_male_bv165dialogue_uranus_bigtts",
+    "Category": "有声阅读,视频配音,外语音色,墨西哥西语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Marcos",
+    "Id": "mx_male_bv165narrator_uranus_bigtts",
+    "Category": "有声阅读,视频配音,外语音色,墨西哥西语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Lucy",
+    "Id": "mx_female_bv166dialogue_uranus_bigtts",
+    "Category": "通用场景, 视频配音,外语音色,墨西哥西语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Rosa",
+    "Id": "mx_female_bv166emotion_uranus_bigtts",
+    "Category": "通用场景, 视频配音,外语音色,墨西哥西语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Freya",
+    "Id": "mx_female_bv166narrator_uranus_bigtts",
+    "Category": "有声阅读, 视频配音, 客服场景,外语音色,墨西哥西语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Felipe",
+    "Id": "mx_male_felipe_uranus_bigtts",
+    "Category": "通用场景,有声阅读,外语音色,墨西哥西语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Derek",
+    "Id": "mx_male_ht_mx_m012_uranus_bigtts",
+    "Category": "教学场景, 视频配音,外语音色,墨西哥西语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Leslie",
+    "Id": "mx_female_leslie_uranus_bigtts",
+    "Category": "通用场景, 客服场景,外语音色,墨西哥西语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Marcelo",
+    "Id": "mx_male_marcelo_uranus_bigtts",
+    "Category": "通用场景, 视频配音,外语音色,墨西哥西语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Sam",
+    "Id": "pt_male_bv172_uranus_bigtts",
+    "Category": "通用场景, 客服场景,外语音色,巴西葡萄牙语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Walter",
+    "Id": "pt_male_bv172dialogue_uranus_bigtts",
+    "Category": "视频配音,外语音色,巴西葡萄牙语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Vincent",
+    "Id": "pt_male_bv172emotion_uranus_bigtts",
+    "Category": "教学场景, 视频配音,外语音色,巴西葡萄牙语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Miles",
+    "Id": "pt_male_bv172narrator_uranus_bigtts",
+    "Category": "有声阅读, 角色扮演,外语音色,巴西葡萄牙语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Diana",
+    "Id": "pt_female_bv173_uranus_bigtts",
+    "Category": "通用场景, 教学场景,外语音色,巴西葡萄牙语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Elena",
+    "Id": "pt_female_bv173dialogue_uranus_bigtts",
+    "Category": "视频配音, 客服场景,外语音色,巴西葡萄牙语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Lola",
+    "Id": "pt_female_bv173emotion_uranus_bigtts",
+    "Category": "通用场景, 教学场景,外语音色,巴西葡萄牙语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Emma",
+    "Id": "pt_female_bv173narrator_uranus_bigtts",
+    "Category": "视频配音, 客服场景,外语音色,巴西葡萄牙语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Sofia",
+    "Id": "pt_female_bv530_uranus_bigtts",
+    "Category": "通用场景, 视频配音,外语音色,巴西葡萄牙语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Arthur",
+    "Id": "pt_male_bv531_uranus_bigtts",
+    "Category": "通用场景, 教学场景,外语音色,巴西葡萄牙语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Mari",
+    "Id": "pt_female_mari_uranus_bigtts",
+    "Category": "教学场景, 视频配音,外语音色,巴西葡萄牙语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Toby",
+    "Id": "pt_male_martins_uranus_bigtts",
+    "Category": "通用场景, 教学场景,外语音色,巴西葡萄牙语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Rael",
+    "Id": "pt_male_rael_uranus_bigtts",
+    "Category": "教学场景, 视频配音,外语音色,巴西葡萄牙语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Amelia",
+    "Id": "ru_female_af07_uranus_bigtts",
+    "Category": "有声阅读,视频配音,外语音色,俄语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Irinae",
+    "Id": "ru_female_irinae_uranus_bigtts",
+    "Category": "有声阅读,视频配音,外语音色,俄语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Pavel",
+    "Id": "ru_male_pavel_uranus_bigtts",
+    "Category": "通用场景, 视频配音,外语音色,俄语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Ksenia",
+    "Id": "ru_female_sophie_uranus_bigtts",
+    "Category": "通用场景,外语音色,俄语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Silas",
+    "Id": "ru_male_vlad_uranus_bigtts",
+    "Category": "趣味口音,外语音色,俄语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Valeria",
+    "Id": "th_female_bv568_angry_uranus_bigtts",
+    "Category": "教学场景, 视频配音,外语音色,泰语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Iris",
+    "Id": "th_female_bv568_fear_uranus_bigtts",
+    "Category": "有声阅读,视频配音,外语音色,泰语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Zara",
+    "Id": "th_female_bv568_happy_uranus_bigtts",
+    "Category": "通用场景, 视频配音,外语音色,泰语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Valentina",
+    "Id": "th_female_bv568_hate_uranus_bigtts",
+    "Category": "通用场景, 视频配音,外语音色,泰语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Mildred",
+    "Id": "th_female_bv568_neutral_uranus_bigtts",
+    "Category": "通用场景, 视频配音,外语音色,泰语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Lydia",
+    "Id": "th_female_bv568_sad_uranus_bigtts",
+    "Category": "视频配音, 客服场景,外语音色,泰语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Phoebe",
+    "Id": "th_female_bv568_suprise_uranus_bigtts",
+    "Category": "有声阅读,视频配音,外语音色,泰语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Annika",
+    "Id": "tl_female_annika_uranus_bigtts",
+    "Category": "通用场景, 视频配音,外语音色,菲律宾语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Ed",
+    "Id": "tl_male_ed_uranus_bigtts",
+    "Category": "通用场景, 视频配音,外语音色,菲律宾语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Hervie",
+    "Id": "tl_female_hervie_uranus_bigtts",
+    "Category": "有声阅读, 视频配音, 客服场景,外语音色,菲律宾语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Hong",
+    "Id": "vi_female_hong_uranus_bigtts",
+    "Category": "通用场景, 客服场景,外语音色,越南语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Ling",
+    "Id": "vi_female_ling_uranus_bigtts",
+    "Category": "通用场景, 视频配音,外语音色,越南语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Linh",
+    "Id": "vi_female_linh_uranus_bigtts",
+    "Category": "视频配音,外语音色,越南语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Partner",
+    "Id": "vi_female_partner_uranus_bigtts",
+    "Category": "视频配音, 客服场景,外语音色,越南语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Ruan",
+    "Id": "vi_female_ruan_uranus_bigtts",
+    "Category": "通用场景,有声阅读, 角色扮演,外语音色,越南语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Wu",
+    "Id": "vi_female_wu_uranus_bigtts",
+    "Category": "通用场景, 视频配音,外语音色,越南语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Wumg",
+    "Id": "vi_male_wumg_uranus_bigtts",
+    "Category": "通用场景, 客服场景,外语音色,越南语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "Enzo",
+    "Id": "it_male_enzo_uranus_bigtts",
+    "Category": "通用场景, 教学场景,外语音色,意大利语",
+    "Section": "\"豆包语音合成模型2.0\" 外语音色列表",
+    "Compatible": true
+  },
+  {
+    "Name": "vivi",
+    "Id": "zh_female_vv_jupiter_bigtts",
+    "Category": "S2S\\-Omni",
+    "Section": "\"端到端实时语音大模型 S2S-O版本、SC-2.0版本 \"音色列表",
+    "Compatible": false
+  },
+  {
+    "Name": "小何",
+    "Id": "zh_female_xiaohe_jupiter_bigtts",
+    "Category": "小何",
+    "Section": "\"端到端实时语音大模型 S2S-O版本、SC-2.0版本 \"音色列表",
+    "Compatible": false
+  },
+  {
+    "Name": "云舟",
+    "Id": "zh_male_yunzhou_jupiter_bigtts",
+    "Category": "云舟",
+    "Section": "\"端到端实时语音大模型 S2S-O版本、SC-2.0版本 \"音色列表",
+    "Compatible": false
+  },
+  {
+    "Name": "小天",
+    "Id": "zh_male_xiaotian_jupiter_bigtts",
+    "Category": "小天",
+    "Section": "\"端到端实时语音大模型 S2S-O版本、SC-2.0版本 \"音色列表",
+    "Compatible": false
+  },
+  {
+    "Name": "傲娇女友",
+    "Id": "saturn_zh_female_aojiaonvyou_tob",
+    "Category": "SC 2.0版本",
+    "Section": "\"端到端实时语音大模型 S2S-O版本、SC-2.0版本 \"音色列表",
+    "Compatible": false
+  },
+  {
+    "Name": "病娇姐姐",
+    "Id": "saturn_zh_female_bingjiaojiejie_tob",
+    "Category": "病娇姐姐",
+    "Section": "\"端到端实时语音大模型 S2S-O版本、SC-2.0版本 \"音色列表",
+    "Compatible": false
+  },
+  {
+    "Name": "成熟姐姐",
+    "Id": "saturn_zh_female_chengshujiejie_tob",
+    "Category": "成熟姐姐",
+    "Section": "\"端到端实时语音大模型 S2S-O版本、SC-2.0版本 \"音色列表",
+    "Compatible": false
+  },
+  {
+    "Name": "可爱女生",
+    "Id": "saturn_zh_female_keainvsheng_tob",
+    "Category": "可爱女生",
+    "Section": "\"端到端实时语音大模型 S2S-O版本、SC-2.0版本 \"音色列表",
+    "Compatible": false
+  },
+  {
+    "Name": "暖心学姐",
+    "Id": "saturn_zh_female_nuanxinxuejie_tob",
+    "Category": "暖心学姐",
+    "Section": "\"端到端实时语音大模型 S2S-O版本、SC-2.0版本 \"音色列表",
+    "Compatible": false
+  },
+  {
+    "Name": "贴心女友",
+    "Id": "saturn_zh_female_tiexinnvyou_tob",
+    "Category": "贴心女友",
+    "Section": "\"端到端实时语音大模型 S2S-O版本、SC-2.0版本 \"音色列表",
+    "Compatible": false
+  },
+  {
+    "Name": "温柔文雅",
+    "Id": "saturn_zh_female_wenrouwenya_tob",
+    "Category": "温柔文雅",
+    "Section": "\"端到端实时语音大模型 S2S-O版本、SC-2.0版本 \"音色列表",
+    "Compatible": false
+  },
+  {
+    "Name": "妩媚御姐",
+    "Id": "saturn_zh_female_wumeiyujie_tob",
+    "Category": "妩媚御姐",
+    "Section": "\"端到端实时语音大模型 S2S-O版本、SC-2.0版本 \"音色列表",
+    "Compatible": false
+  },
+  {
+    "Name": "性感御姐",
+    "Id": "saturn_zh_female_xingganyujie_tob",
+    "Category": "性感御姐",
+    "Section": "\"端到端实时语音大模型 S2S-O版本、SC-2.0版本 \"音色列表",
+    "Compatible": false
+  },
+  {
+    "Name": "傲气凌人",
+    "Id": "saturn_zh_male_aiqilingren_tob",
+    "Category": "傲气凌人",
+    "Section": "\"端到端实时语音大模型 S2S-O版本、SC-2.0版本 \"音色列表",
+    "Compatible": false
+  },
+  {
+    "Name": "傲娇公子",
+    "Id": "saturn_zh_male_aojiaogongzi_tob",
+    "Category": "傲娇公子",
+    "Section": "\"端到端实时语音大模型 S2S-O版本、SC-2.0版本 \"音色列表",
+    "Compatible": false
+  },
+  {
+    "Name": "傲娇精英",
+    "Id": "saturn_zh_male_aojiaojingying_tob",
+    "Category": "傲娇精英",
+    "Section": "\"端到端实时语音大模型 S2S-O版本、SC-2.0版本 \"音色列表",
+    "Compatible": false
+  },
+  {
+    "Name": "傲慢少爷",
+    "Id": "saturn_zh_male_aomanshaoye_tob",
+    "Category": "傲慢少爷",
+    "Section": "\"端到端实时语音大模型 S2S-O版本、SC-2.0版本 \"音色列表",
+    "Compatible": false
+  },
+  {
+    "Name": "霸道少爷",
+    "Id": "saturn_zh_male_badaoshaoye_tob",
+    "Category": "霸道少爷",
+    "Section": "\"端到端实时语音大模型 S2S-O版本、SC-2.0版本 \"音色列表",
+    "Compatible": false
+  },
+  {
+    "Name": "病娇白莲",
+    "Id": "saturn_zh_male_bingjiaobailian_tob",
+    "Category": "病娇白莲",
+    "Section": "\"端到端实时语音大模型 S2S-O版本、SC-2.0版本 \"音色列表",
+    "Compatible": false
+  },
+  {
+    "Name": "不羁青年",
+    "Id": "saturn_zh_male_bujiqingnian_tob",
+    "Category": "不羁青年",
+    "Section": "\"端到端实时语音大模型 S2S-O版本、SC-2.0版本 \"音色列表",
+    "Compatible": false
+  },
+  {
+    "Name": "成熟总裁",
+    "Id": "saturn_zh_male_chengshuzongcai_tob",
+    "Category": "成熟总裁",
+    "Section": "\"端到端实时语音大模型 S2S-O版本、SC-2.0版本 \"音色列表",
+    "Compatible": false
+  },
+  {
+    "Name": "磁性男嗓",
+    "Id": "saturn_zh_male_cixingnansang_tob",
+    "Category": "磁性男嗓",
+    "Section": "\"端到端实时语音大模型 S2S-O版本、SC-2.0版本 \"音色列表",
+    "Compatible": false
+  },
+  {
+    "Name": "醋精男友",
+    "Id": "saturn_zh_male_cujingnanyou_tob",
+    "Category": "醋精男友",
+    "Section": "\"端到端实时语音大模型 S2S-O版本、SC-2.0版本 \"音色列表",
+    "Compatible": false
+  },
+  {
+    "Name": "风发少年",
+    "Id": "saturn_zh_male_fengfashaonian_tob",
+    "Category": "风发少年",
+    "Section": "\"端到端实时语音大模型 S2S-O版本、SC-2.0版本 \"音色列表",
+    "Compatible": false
+  },
+  {
+    "Name": "腹黑公子",
+    "Id": "saturn_zh_male_fuheigongzi_tob",
+    "Category": "腹黑公子",
+    "Section": "\"端到端实时语音大模型 S2S-O版本、SC-2.0版本 \"音色列表",
+    "Compatible": false
+  },
+  {
+    "Name": "冷酷哥哥（多情感）",
+    "Id": "zh_male_lengkugege_emo_v2_mars_bigtts",
+    "Category": "多情感",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "甜心小美（多情感）",
+    "Id": "zh_female_tianxinxiaomei_emo_v2_mars_bigtts",
+    "Category": "甜心小美（多情感）",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "广州德哥（多情感）",
+    "Id": "zh_male_guangzhoudege_emo_mars_bigtts",
+    "Category": "广州德哥（多情感）",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "京腔侃爷（多情感）",
+    "Id": "zh_male_jingqiangkanye_emo_mars_bigtts",
+    "Category": "京腔侃爷（多情感）",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "邻居阿姨（多情感）",
+    "Id": "zh_female_linjuayi_emo_v2_mars_bigtts",
+    "Category": "邻居阿姨（多情感）",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "优柔公子（多情感）",
+    "Id": "zh_male_yourougongzi_emo_v2_mars_bigtts",
+    "Category": "优柔公子（多情感）",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "儒雅男友（多情感）",
+    "Id": "zh_male_ruyayichen_emo_v2_mars_bigtts",
+    "Category": "儒雅男友（多情感）",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "俊朗男友（多情感）",
+    "Id": "zh_male_junlangnanyou_emo_v2_mars_bigtts",
+    "Category": "俊朗男友（多情感）",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "北京小爷（多情感）",
+    "Id": "zh_male_beijingxiaoye_emo_v2_mars_bigtts",
+    "Category": "北京小爷（多情感）",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "柔美女友（多情感）",
+    "Id": "zh_female_roumeinvyou_emo_v2_mars_bigtts",
+    "Category": "柔美女友（多情感）",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "阳光青年（多情感）",
+    "Id": "zh_male_yangguangqingnian_emo_v2_mars_bigtts",
+    "Category": "阳光青年（多情感）",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "魅力女友（多情感）",
+    "Id": "zh_female_meilinvyou_emo_v2_mars_bigtts",
+    "Category": "魅力女友（多情感）",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "爽快思思（多情感）",
+    "Id": "zh_female_shuangkuaisisi_emo_v2_mars_bigtts",
+    "Category": "爽快思思（多情感）",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "深夜播客（多情感）",
+    "Id": "zh_male_shenyeboke_emo_v2_mars_bigtts",
+    "Category": "深夜播客（多情感）",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "Candice",
+    "Id": "en_female_candice_emo_v2_mars_bigtts",
+    "Category": "Candice",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "Tina老师",
+    "Id": "zh_female_yingyujiaoyu_mars_bigtts",
+    "Category": "教育场景",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "亲切女声",
+    "Id": "zh_female_qinqienvsheng_moon_bigtts",
+    "Category": "通用场景",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "阳光阿辰",
+    "Id": "zh_male_qingyiyuxuan_mars_bigtts",
+    "Category": "阳光阿辰",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "快乐小东",
+    "Id": "zh_male_xudong_conversation_wvae_bigtts",
+    "Category": "快乐小东",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "开朗学长",
+    "Id": "en_male_jason_conversation_wvae_bigtts",
+    "Category": "开朗学长",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "甜美桃子",
+    "Id": "zh_female_tianmeitaozi_mars_bigtts",
+    "Category": "甜美桃子",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "清新女声",
+    "Id": "zh_female_qingxinnvsheng_mars_bigtts",
+    "Category": "清新女声",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "知性女声",
+    "Id": "zh_female_zhixingnvsheng_mars_bigtts",
+    "Category": "知性女声",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "清爽男大",
+    "Id": "zh_male_qingshuangnanda_mars_bigtts",
+    "Category": "清爽男大",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "邻家女孩",
+    "Id": "zh_female_linjianvhai_moon_bigtts",
+    "Category": "邻家女孩",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "渊博小叔",
+    "Id": "zh_male_yuanboxiaoshu_moon_bigtts",
+    "Category": "渊博小叔",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "阳光青年",
+    "Id": "zh_male_yangguangqingnian_moon_bigtts",
+    "Category": "阳光青年",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "甜美小源",
+    "Id": "zh_female_tianmeixiaoyuan_moon_bigtts",
+    "Category": "甜美小源",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "清澈梓梓",
+    "Id": "zh_female_qingchezizi_moon_bigtts",
+    "Category": "清澈梓梓",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "解说小明",
+    "Id": "zh_male_jieshuoxiaoming_moon_bigtts",
+    "Category": "解说小明",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "开朗姐姐",
+    "Id": "zh_female_kailangjiejie_moon_bigtts",
+    "Category": "开朗姐姐",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "邻家男孩",
+    "Id": "zh_male_linjiananhai_moon_bigtts",
+    "Category": "邻家男孩",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "甜美悦悦",
+    "Id": "zh_female_tianmeiyueyue_moon_bigtts",
+    "Category": "甜美悦悦",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "心灵鸡汤",
+    "Id": "zh_female_xinlingjitang_moon_bigtts",
+    "Category": "心灵鸡汤",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "温柔小哥",
+    "Id": "zh_male_wenrouxiaoge_mars_bigtts",
+    "Category": "温柔小哥",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "灿灿/Shiny",
+    "Id": "zh_female_cancan_mars_bigtts",
+    "Category": "灿灿/Shiny",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "爽快思思/Skye",
+    "Id": "zh_female_shuangkuaisisi_moon_bigtts",
+    "Category": "爽快思思/Skye",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "温暖阿虎/Alvin",
+    "Id": "zh_male_wennuanahu_moon_bigtts",
+    "Category": "温暖阿虎/Alvin",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "少年梓辛/Brayan",
+    "Id": "zh_male_shaonianzixin_moon_bigtts",
+    "Category": "少年梓辛/Brayan",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "粤语小溏",
+    "Id": "zh_female_yueyunv_mars_bigtts",
+    "Category": "趣味口音",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "豫州子轩",
+    "Id": "zh_male_yuzhouzixuan_moon_bigtts",
+    "Category": "豫州子轩",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "呆萌川妹",
+    "Id": "zh_female_daimengchuanmei_moon_bigtts",
+    "Category": "呆萌川妹",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "广西远舟",
+    "Id": "zh_male_guangxiyuanzhou_moon_bigtts",
+    "Category": "广西远舟",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "双节棍小哥",
+    "Id": "zh_male_zhoujielun_emo_v2_mars_bigtts",
+    "Category": "双节棍小哥",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "湾湾小何",
+    "Id": "zh_female_wanwanxiaohe_moon_bigtts",
+    "Category": "湾湾小何",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "湾区大叔",
+    "Id": "zh_female_wanqudashu_moon_bigtts",
+    "Category": "湾区大叔",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "广州德哥",
+    "Id": "zh_male_guozhoudege_moon_bigtts",
+    "Category": "广州德哥",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "浩宇小哥",
+    "Id": "zh_male_haoyuxiaoge_moon_bigtts",
+    "Category": "浩宇小哥",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "北京小爷",
+    "Id": "zh_male_beijingxiaoye_moon_bigtts",
+    "Category": "北京小爷",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "京腔侃爷/Harmony",
+    "Id": "zh_male_jingqiangkanye_moon_bigtts",
+    "Category": "京腔侃爷/Harmony",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "妹坨洁儿",
+    "Id": "zh_female_meituojieer_moon_bigtts",
+    "Category": "妹坨洁儿",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "奶气萌娃",
+    "Id": "zh_male_naiqimengwa_mars_bigtts",
+    "Category": "角色扮演",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "婆婆",
+    "Id": "zh_female_popo_mars_bigtts",
+    "Category": "婆婆",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "高冷御姐",
+    "Id": "zh_female_gaolengyujie_moon_bigtts",
+    "Category": "高冷御姐",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "傲娇霸总",
+    "Id": "zh_male_aojiaobazong_moon_bigtts",
+    "Category": "傲娇霸总",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "魅力女友",
+    "Id": "zh_female_meilinvyou_moon_bigtts",
+    "Category": "魅力女友",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "深夜播客",
+    "Id": "zh_male_shenyeboke_moon_bigtts",
+    "Category": "深夜播客",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "柔美女友",
+    "Id": "zh_female_sajiaonvyou_moon_bigtts",
+    "Category": "柔美女友",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "撒娇学妹",
+    "Id": "zh_female_yuanqinvyou_moon_bigtts",
+    "Category": "撒娇学妹",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "东方浩然",
+    "Id": "zh_male_dongfanghaoran_moon_bigtts",
+    "Category": "东方浩然",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "Lucas",
+    "Id": "zh_male_M100_conversation_wvae_bigtts",
+    "Category": "外语音色",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "Adam",
+    "Id": "en_male_adam_mars_bigtts",
+    "Category": "Adam",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "Amanda",
+    "Id": "en_female_amanda_mars_bigtts",
+    "Category": "Amanda",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "Jackson",
+    "Id": "en_male_jackson_mars_bigtts",
+    "Category": "Jackson",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "Smith",
+    "Id": "en_male_smith_mars_bigtts",
+    "Category": "Smith",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "Anna",
+    "Id": "en_female_anna_mars_bigtts",
+    "Category": "Anna",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "Sarah",
+    "Id": "en_female_sarah_mars_bigtts",
+    "Category": "Sarah",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "Dryw",
+    "Id": "en_male_dryw_mars_bigtts",
+    "Category": "Dryw",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "Diana",
+    "Id": "multi_female_maomao_conversation_wvae_bigtts",
+    "Category": "Diana",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "Lucía",
+    "Id": "multi_male_M100_conversation_wvae_bigtts",
+    "Category": "Lucía",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "Sofía",
+    "Id": "multi_female_sophie_conversation_wvae_bigtts",
+    "Category": "Sofía",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "Daníel",
+    "Id": "multi_male_xudong_conversation_wvae_bigtts",
+    "Category": "Daníel",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "ひかる（光）",
+    "Id": "multi_zh_male_youyoujunzi_moon_bigtts",
+    "Category": "ひかる（光）",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "あけみ（朱美）",
+    "Id": "multi_female_gaolengyujie_moon_bigtts",
+    "Category": "あけみ（朱美）",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "かずね（和音）/JavierorÁlvaro",
+    "Id": "multi_male_jingqiangkanye_moon_bigtts",
+    "Category": "かずね（和音）/JavierorÁlvaro",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "はるこ（晴子）/Esmeralda",
+    "Id": "multi_female_shuangkuaisisi_moon_bigtts",
+    "Category": "はるこ（晴子）/Esmeralda",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "ひろし（広志）/Roberto",
+    "Id": "multi_male_wanqudashu_moon_bigtts",
+    "Category": "ひろし（広志）/Roberto",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "文静毛毛",
+    "Id": "zh_female_maomao_conversation_wvae_bigtts",
+    "Category": "文静毛毛",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "温柔小雅",
+    "Id": "zh_female_wenrouxiaoya_moon_bigtts",
+    "Category": "温柔小雅",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "天才童声",
+    "Id": "zh_male_tiancaitongsheng_mars_bigtts",
+    "Category": "天才童声",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "猴哥",
+    "Id": "zh_male_sunwukong_mars_bigtts",
+    "Category": "猴哥",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "熊二",
+    "Id": "zh_male_xionger_mars_bigtts",
+    "Category": "熊二",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "佩奇猪",
+    "Id": "zh_female_peiqi_mars_bigtts",
+    "Category": "佩奇猪",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "武则天",
+    "Id": "zh_female_wuzetian_mars_bigtts",
+    "Category": "武则天",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "顾姐",
+    "Id": "zh_female_gujie_mars_bigtts",
+    "Category": "顾姐",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "樱桃丸子",
+    "Id": "zh_female_yingtaowanzi_mars_bigtts",
+    "Category": "樱桃丸子",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "广告解说",
+    "Id": "zh_male_chunhui_mars_bigtts",
+    "Category": "广告解说",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "少儿故事",
+    "Id": "zh_female_shaoergushi_mars_bigtts",
+    "Category": "少儿故事",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "四郎",
+    "Id": "zh_male_silang_mars_bigtts",
+    "Category": "四郎",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "俏皮女声",
+    "Id": "zh_female_qiaopinvsheng_mars_bigtts",
+    "Category": "俏皮女声",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "懒音绵宝",
+    "Id": "zh_male_lanxiaoyang_mars_bigtts",
+    "Category": "懒音绵宝",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "亮嗓萌仔",
+    "Id": "zh_male_dongmanhaimian_mars_bigtts",
+    "Category": "亮嗓萌仔",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "鸡汤妹妹/Hope",
+    "Id": "zh_female_jitangmeimei_mars_bigtts",
+    "Category": "鸡汤妹妹/Hope",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "贴心女声/Candy",
+    "Id": "zh_female_tiexinnvsheng_mars_bigtts",
+    "Category": "贴心女声/Candy",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "萌丫头/Cutey",
+    "Id": "zh_female_mengyatou_mars_bigtts",
+    "Category": "萌丫头/Cutey",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "悬疑解说",
+    "Id": "zh_male_changtianyi_mars_bigtts",
+    "Category": "有声阅读",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "儒雅青年",
+    "Id": "zh_male_ruyaqingnian_mars_bigtts",
+    "Category": "儒雅青年",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "霸气青叔",
+    "Id": "zh_male_baqiqingshu_mars_bigtts",
+    "Category": "霸气青叔",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "擎苍",
+    "Id": "zh_male_qingcang_mars_bigtts",
+    "Category": "擎苍",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "活力小哥",
+    "Id": "zh_male_yangguangqingnian_mars_bigtts",
+    "Category": "活力小哥",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "古风少御",
+    "Id": "zh_female_gufengshaoyu_mars_bigtts",
+    "Category": "古风少御",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "温柔淑女",
+    "Id": "zh_female_wenroushunv_mars_bigtts",
+    "Category": "温柔淑女",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  },
+  {
+    "Name": "反卷青年",
+    "Id": "zh_male_fanjuanqingnian_mars_bigtts",
+    "Category": "反卷青年",
+    "Section": "情感参数（emotion）：",
+    "Compatible": false
+  }
+]

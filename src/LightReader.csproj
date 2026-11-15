@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <ApplicationIcon>Assets/LightReader.ico</ApplicationIcon>
+    <TargetFramework>net9.0-windows10.0.19041.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <!-- WPF owns DPI via app.manifest; WinForms is used only for NotifyIcon, not a Forms application. -->
+    <NoWarn>$(NoWarn);WFO0003</NoWarn>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF><UseWindowsForms>true</UseWindowsForms><ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Markdig" Version="0.41.3" />
+    <Resource Include="Assets/LightReader.ico" />
+    <Using Remove="System.Windows.Forms" />
+    <Using Remove="System.Drawing" />
+    <EmbeddedResource Include="Data/voices.json" />
+    <EmbeddedResource Include="Data/edge-voices.json" />
+    <Content Include="Backends/edge_tts_bridge.py" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <PackageReference Include="NAudio" Version="2.2.1" />
+    <PackageReference Include="System.Security.Cryptography.ProtectedData" Version="9.0.0" />
+    <PackageReference Include="System.Speech" Version="9.0.0" />
+  </ItemGroup>
+
+</Project>
+
+
+
