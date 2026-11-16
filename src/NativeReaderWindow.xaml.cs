@@ -36,6 +36,7 @@ public partial class NativeReaderWindow : Window
     readonly WrapPanel settingsActions=new();
     Grid readerPage=null!;
     SettingsWindow? embeddedSettings;
+    readonly StackPanel bottomNavigation=new(){Orientation=Orientation.Horizontal,HorizontalAlignment=HorizontalAlignment.Left};
     Button? settingsNav;
     void SelectNavigation(string page){
         foreach(var pair in new[]{(ReadNavButton,"reader"),(HistoryNavButton,"history"),(settingsNav,"settings")}){
@@ -72,6 +73,7 @@ public partial class NativeReaderWindow : Window
         storagePath=statePath;historyImages=new HistoryImages(statePath);
         InitializeComponent();
         SetupPages();
+        ApplyStitchLayout();
         ((Panel)CaretButton.Parent).Children.Remove(CaretButton);
         PlaybackControls.Children.Insert(PlaybackControls.Children.IndexOf(ExpandButton),CaretButton);
         CaretButton.Height=43;
@@ -414,6 +416,17 @@ public partial class NativeReaderWindow : Window
         IEnumerable<DependencyObject> DescendantsLogical(DependencyObject root){foreach(var child in LogicalTreeHelper.GetChildren(root).OfType<DependencyObject>()){yield return child;foreach(var nested in DescendantsLogical(child))yield return nested;}}
         var menus=Descendants(readerPage).OfType<Button>().Where(x=>x.ContextMenu is not null).Distinct().ToList();
         settingsNav=Descendants(NavRail).OfType<Button>().FirstOrDefault(x=>x.ToolTip?.ToString()=="服务设置");
+        Workspace.RowDefinitions.Add(new RowDefinition());
+        Workspace.RowDefinitions.Add(new RowDefinition{Height=GridLength.Auto});
+        Grid.SetColumn(bottomNavigation,1);Grid.SetRow(bottomNavigation,1);Workspace.Children.Add(bottomNavigation);
+        foreach(var button in new[]{ReadNavButton,HistoryNavButton,settingsNav}){
+            if(button is null)continue;
+            if(button.Parent is Panel old)old.Children.Remove(button);
+            button.Width=88;button.Height=42;button.Margin=new Thickness(3);
+            if(button.Content is StackPanel content){content.Orientation=Orientation.Horizontal;foreach(var label in content.Children.OfType<TextBlock>()){label.FontSize=13;label.Margin=new Thickness(4,0,4,0);label.VerticalAlignment=VerticalAlignment.Center;}}
+            bottomNavigation.Children.Add(button);
+        }
+        NavRail.Visibility=Visibility.Collapsed;RailColumn.Width=new GridLength(0);
         foreach(var button in menus){
             bool document=System.Windows.Automation.AutomationProperties.GetName(button)=="正文操作";
             foreach(var item in button.ContextMenu!.Items.OfType<MenuItem>()){
@@ -431,6 +444,26 @@ public partial class NativeReaderWindow : Window
         PinButton.Style=(Style)FindResource("QuietButton");PinButton.Width=42;PinButton.FontFamily=new FontFamily("Segoe MDL2 Assets");
         Closed+=(_,_)=>{historyWindow?.Close();embeddedSettings?.Close();};
     }
+    void ApplyStitchLayout()
+    {
+        Title="轻读 · Fluent Clarity";
+        WindowFrame.CornerRadius=new CornerRadius(8);
+        PlayerDock.CornerRadius=new CornerRadius(8);
+        PlayerDock.Padding=new Thickness(12);
+        bottomNavigation.HorizontalAlignment=HorizontalAlignment.Center;
+        bottomNavigation.Margin=new Thickness(0,6,0,2);
+        Header.Margin=new Thickness(8,4,8,8);
+        OcrBar.Margin=new Thickness(8,0,8,10);
+        ReadingArea.Margin=new Thickness(8,0,8,12);
+        void Refine(DependencyObject root){
+            foreach(var child in LogicalTreeHelper.GetChildren(root).OfType<DependencyObject>()){
+                if(child is Border border&&border.CornerRadius.TopLeft>8)border.CornerRadius=new CornerRadius(8);
+                if(child is TextBlock label&&label.Text=="把阅读交给声音"){label.Text="阅读工作区";label.FontSize=18;}
+                Refine(child);
+            }
+        }
+        Refine(ReadingArea);
+    }
     void PreviewReading(object sender,RoutedEventArgs e){if(string.IsNullOrWhiteSpace(Editor.Text))return;CancelRead();RenderText();}
     void ToggleTuning(object sender,RoutedEventArgs e){tuningExpanded=!tuningExpanded;TuningPanel.Visibility=tuningExpanded&&!compact?Visibility.Visible:Visibility.Collapsed;}
     void UpdateSource(){if(SourceLabel is not null)SourceLabel.Text=lastOcrImage is not null?"来自图片 · 原图已加密保存":string.IsNullOrWhiteSpace(Editor.Text)?"粘贴一段文字，或截取屏幕上的内容":"正文已在本机自动保存";}
@@ -438,8 +471,8 @@ public partial class NativeReaderWindow : Window
     {
         compact=!compact;
         if(compact){normalState=WindowState;normalHeight=Height;normalWidth=Width;normalLeft=Left;normalTop=Top;WindowState=WindowState.Normal;}
-        foreach(var control in new UIElement[]{Header,OcrBar,ReadingArea,VoicePanel,ProgressPanel,StatusPanel,NavRail})control.Visibility=compact?Visibility.Collapsed:Visibility.Visible;
-        RailColumn.Width=new GridLength(compact?0:78);TuningPanel.Visibility=!compact&&tuningExpanded?Visibility.Visible:Visibility.Collapsed;
+        foreach(var control in new UIElement[]{Header,OcrBar,ReadingArea,VoicePanel,ProgressPanel,StatusPanel,bottomNavigation})control.Visibility=compact?Visibility.Collapsed:Visibility.Visible;
+        RailColumn.Width=new GridLength(0);TuningPanel.Visibility=!compact&&tuningExpanded?Visibility.Visible:Visibility.Collapsed;
         RestartButton.Visibility=compact?Visibility.Collapsed:Visibility.Visible;
         CompactVoice.Visibility=ExpandButton.Visibility=compact?Visibility.Visible:Visibility.Collapsed;
         MinWidth=compact?490:820;MinHeight=compact?125:600;

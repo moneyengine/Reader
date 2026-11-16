@@ -24,6 +24,11 @@ static class SpeechTextChecks
             if(result.IndexOf("接着朗读123",StringComparison.Ordinal)!=sample.IndexOf("接着朗读123",StringComparison.Ordinal)||!result.Contains("文件标签"))throw new Exception("Path filtering damaged surrounding text");
         }
         var normal="速度1.25倍，日期2026年，输入/输出，Windows/SAPI。";
+        var flow="执行流程\n```text\n发现符合条件的 TAPD Bug\n↓\n读取详情、评论与附件\n↓\n分析根因、生成最小修复\n```\n结束。";
+        var flowResult=SpeechText.Filter(flow);
+        foreach(var step in new[]{"发现符合条件的 TAPD Bug","读取详情、评论与附件","分析根因、生成最小修复","结束。"}){
+            var at=flow.IndexOf(step,StringComparison.Ordinal);if(flowResult.Substring(at,step.Length)!=step)throw new Exception("Plain-text flow filtered: "+step);
+        }
         if(SpeechText.Filter(normal)!=normal)throw new Exception("Ordinary slash or numbers treated as paths");
         foreach(var code in new[]{
             "```cpp\nconst float Dot = FVector2D::DotProduct(F, D);\nconst bool bVisible = Dot > 0.f;\n```",

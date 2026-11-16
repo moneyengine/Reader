@@ -20,7 +20,7 @@
   <Setter Property="Padding" Value="15,8"/><Setter Property="Margin" Value="3"/><Setter Property="MinHeight" Value="36"/><Setter Property="FontSize" Value="13"/>
   <Setter Property="Background" Value="{DynamicResource GlassBrush}"/><Setter Property="Foreground" Value="{DynamicResource InkBrush}"/><Setter Property="BorderBrush" Value="{DynamicResource LineBrush}"/><Setter Property="Cursor" Value="Hand"/>
   <Setter Property="Template"><Setter.Value><ControlTemplate TargetType="Button">
-   <Border x:Name="Frame" CornerRadius="19" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="1" Padding="{TemplateBinding Padding}" SnapsToDevicePixels="True">
+   <Border x:Name="Frame" CornerRadius="6" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="1" Padding="{TemplateBinding Padding}" SnapsToDevicePixels="True">
     <Grid><ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" RecognizesAccessKey="True"/></Grid>
    </Border>
    <ControlTemplate.Triggers>

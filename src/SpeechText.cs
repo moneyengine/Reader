@@ -18,6 +18,7 @@ public static class SpeechText
         void VisitBlock(ContainerBlock container){
             foreach(var child in container){
                 if(child is CodeBlock code){
+                    if(code is FencedCodeBlock fence&&fence.Info?.Trim().Equals("text",StringComparison.OrdinalIgnoreCase)==true)continue;
                     Blank(code.Span);
                     foreach(var line in code.Lines.Lines.Take(code.Lines.Count))Blank(new SourceSpan(line.Slice.Start,line.Slice.End));
                     if(code is FencedCodeBlock{ClosingFencedCharCount:0})Blank(new SourceSpan(code.Span.Start,text.Length-1));

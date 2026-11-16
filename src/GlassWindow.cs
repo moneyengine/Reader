@@ -83,6 +83,21 @@ public static class GlassWindow
             window.Resources["LensBrush"] = window.Resources["SelectionBrush"] = SystemColors.ControlBrush;
             window.Resources["PrimaryTextBrush"]=SystemColors.HighlightTextBrush;
         }
+        // Stitch Fluent Clarity palette: stable reading surface and restrained blue controls.
+        if(!SystemParameters.HighContrast){
+            Brush("PageBrush",dark?"#202020":"#F4F5F7");
+            Brush("ShellBrush",dark?"#202020":"#F4F5F7");
+            Brush("GlassBrush",dark?"#292929":"#FFFFFF");
+            Brush("CardBrush",dark?"#242424":"#FFFFFF");
+            Brush("InkBrush",dark?"#F1F1F1":"#1B1B1C");
+            Brush("MutedBrush",dark?"#B8BCC5":"#414752");
+            Brush("LineBrush",dark?"#414752":"#DDE1E8");
+            Brush("AccentBrush",dark?"#A6C8FF":"#0067C0");
+            Brush("PrimaryBrush",dark?"#A6C8FF":"#0067C0");
+            Brush("PrimaryTextBrush",dark?"#001C3B":"#FFFFFF");
+            Brush("LensBrush",dark?"#263D54":"#E6F1FC");
+            Brush("SelectionBrush",dark?"#263D54":"#D5E3FF");
+        }
         window.Background=acrylic?Brushes.Transparent:(Brush)window.FindResource("PageBrush");
         return acrylic;
     }
