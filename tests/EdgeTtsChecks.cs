@@ -45,7 +45,7 @@ static class EdgeTtsChecks
             window.Loaded+=async(_,_)=>{
                 try{
                     T Find<T>(string name) where T:class=>(T)window.FindName(name);
-                    var engine=Find<ComboBox>("Engine");engine.SelectedIndex=2;
+                    if(Find<ComboBox>("Engine").IsVisible)throw new Exception("Provider selector should be removed");
                     var voice=Find<ComboBox>("Voice");if(voice.Items.Count<100)throw new Exception("Edge voices missing from native dropdown");
                     Find<TextBox>("VoiceSearch").Text="云希";
                     voice.SelectedItem=voice.Items.OfType<VoiceChoice>().Single(x=>x.Id==(completion?"zh-CN-YunyangNeural":"zh-CN-YunxiNeural"));

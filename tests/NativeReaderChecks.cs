@@ -49,7 +49,7 @@ static class NativeReaderChecks
                     T Find<T>(string name) where T:class => window.FindName(name) as T??throw new Exception("Missing "+name);
                     void Click(string name)=>Find<Button>(name).RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
                     if(Find<TextBlock>("PositionLabel").Text!="0 / 4")throw new Exception("Restored text count missing");
-                    var editor=Find<TextBox>("Editor");var display=Find<FlowDocumentScrollViewer>("ReadingView");
+                    var editor=Find<TextBox>("Editor");var display=Find<RichTextBox>("ReadingView");
                     Find<Slider>("Volume").Value=0;
                     editor.Text=fixture+string.Concat(Enumerable.Repeat("继续测试朗读进度、暂停和跳转。",12));
                     Click("PlayButton");await Task.Delay(1500);

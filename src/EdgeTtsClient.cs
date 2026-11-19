@@ -117,7 +117,7 @@ public sealed class EdgeTtsClient
                 if(doc.RootElement.TryGetProperty("error",out var failure)) {
                     var dependency=doc.RootElement.TryGetProperty("code",out var code)&&code.GetString()=="dependency_missing";
                     var message=failure.GetString();doc.Dispose();if(dependency)continue;
-                    throw new InvalidOperationException("Edge 自然语音请求失败："+message+"。请检查网络；可切回 Windows 本机离线朗读。");
+                    throw new InvalidOperationException("Edge 自然语音请求失败："+message+"。请检查网络后重试。");
                 }
                 if(process.ExitCode!=0){doc.Dispose();throw new InvalidOperationException("Edge 自然语音进程异常结束。");}
                 return doc;

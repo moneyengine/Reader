@@ -85,20 +85,36 @@ public static class GlassWindow
         }
         // Stitch Fluent Clarity palette: stable reading surface and restrained blue controls.
         if(!SystemParameters.HighContrast){
-            Brush("PageBrush",dark?"#202020":"#F4F5F7");
-            Brush("ShellBrush",dark?"#202020":"#F4F5F7");
-            Brush("GlassBrush",dark?"#292929":"#FFFFFF");
+            Brush("PageBrush",dark?"#202020":"#F8F9FF");
+            Brush("ShellBrush",dark?"#202020":"#F8F9FF");
+            Brush("GlassBrush",dark?"#292929":"#EFF4FF");
             Brush("CardBrush",dark?"#242424":"#FFFFFF");
-            Brush("InkBrush",dark?"#F1F1F1":"#1B1B1C");
-            Brush("MutedBrush",dark?"#B8BCC5":"#414752");
-            Brush("LineBrush",dark?"#414752":"#DDE1E8");
-            Brush("AccentBrush",dark?"#A6C8FF":"#0067C0");
-            Brush("PrimaryBrush",dark?"#A6C8FF":"#0067C0");
+            Brush("InkBrush",dark?"#F1F1F1":"#0B1C30");
+            Brush("MutedBrush",dark?"#B8BCC5":"#434655");
+            Brush("LineBrush",dark?"#414752":"#C3C6D7");
+            Brush("AccentBrush",dark?"#A6C8FF":"#004AC6");
+            Brush("PrimaryBrush",dark?"#A6C8FF":"#2563EB");
             Brush("PrimaryTextBrush",dark?"#001C3B":"#FFFFFF");
-            Brush("LensBrush",dark?"#263D54":"#E6F1FC");
+            Brush("LensBrush",dark?"#263D54":"#E5EEFF");
             Brush("SelectionBrush",dark?"#263D54":"#D5E3FF");
         }
         window.Background=acrylic?Brushes.Transparent:(Brush)window.FindResource("PageBrush");
+        Brush("ReaderInlineCodeBrush",dark?"#383838":"#EDEDED");
+        Brush("ReaderCodeBackgroundBrush",dark?"#2C2C2C":"#F4F4F4");
+        Brush("ReaderCodeBorderBrush",dark?"#414141":"#E4E4E4");
+        Brush("ReaderCodeInkBrush",dark?"#E8E8E8":"#252525");
+        Brush("ReaderLinkBrush",dark?"#8EC6FF":"#006BD6");
+        Brush("ReaderKeywordBrush",dark?"#F092C5":"#A82476");
+        Brush("ReaderTypeBrush",dark?"#BFA9FF":"#6741D9");
+        Brush("ReaderStringBrush",dark?"#8DD5A9":"#187448");
+        Brush("ReaderNumberBrush",dark?"#FFB580":"#B44C10");
+        Brush("ReaderCommentBrush",dark?"#B4B4B4":"#626262");
+        if(SystemParameters.HighContrast){
+            window.Resources["ReaderInlineCodeBrush"]=window.Resources["ReaderCodeBackgroundBrush"]=SystemColors.WindowBrush;
+            window.Resources["ReaderCodeBorderBrush"]=SystemColors.WindowTextBrush;
+            foreach(var key in new[]{"ReaderCodeInkBrush","ReaderKeywordBrush","ReaderTypeBrush","ReaderStringBrush","ReaderNumberBrush","ReaderCommentBrush"})window.Resources[key]=SystemColors.WindowTextBrush;
+            window.Resources["ReaderLinkBrush"]=SystemColors.HotTrackBrush;
+        }
         return acrylic;
     }
 

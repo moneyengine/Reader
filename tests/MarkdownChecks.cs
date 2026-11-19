@@ -17,6 +17,21 @@ static class MarkdownChecks
             var chunks=TextChunks.Split(sample,150,true).ToArray();
             if(chunks.Length!=1||string.Concat(chunks)!=sample)throw new Exception("Filtered blanks still split sentence at punctuation");
             Console.WriteLine("PASS Markdown headings/emphasis/code/lists/quotes/links and original offsets; long filtered gap after numeric sentence");
+            var codeText="正文。\n\n```hlsl\nfloat value = 1;\n```\n\n```text\n发现问题\n↓\n修复问题\n```\n\n继续正文。";
+            var codeRuns=new List<(int Start,int Length,Run Run)>();var blocks=MarkdownReading.Render(codeText,18,Brushes.Black,_=>{},codeRuns);
+            if(MarkdownReading.CountProgrammingBlocks(codeText)!=1)throw new Exception("Text flow counted as programming code");
+            var labels=blocks.Blocks.OfType<Section>().SelectMany(section=>section.Blocks.OfType<Paragraph>()).SelectMany(p=>p.Inlines.OfType<Run>()).Where(run=>run.Tag as string=="code-label").ToList();
+            if(labels.Count!=2||!labels[0].Text.Contains("已跳过")||!labels[1].Text.Contains("正常朗读"))throw new Exception("Code/flow header status wrong");
+            foreach(var entry in codeRuns)if(codeText.Substring(entry.Start,entry.Length)!=entry.Run.Text)throw new Exception("Code headers damaged source mapping");
+            Console.WriteLine("PASS code language/status headers, text flow status, programming count and exact source run offsets");
+            var tableText="| A | B | C |\n| :--- | :---: | ---: |\n| repeated | **重复** | 1 |\n| repeated | | 2 |";
+            var tableRuns=new List<(int Start,int Length,Run Run)>();var tableDocument=MarkdownReading.Render(tableText,18,Brushes.Black,_=>{},tableRuns);
+            if(!MarkdownReading.IsMarkdown(tableText))throw new Exception("Pipe table not recognized as Markdown");
+            var table=tableDocument.Blocks.OfType<Table>().Single();
+            if(table.Columns.Count!=3||table.RowGroups.Single().Rows.Count!=3)throw new Exception("Table/empty cell structure incorrect");
+            var mapping=new ReadingDocument(tableDocument,tableText,tableRuns);
+            foreach(var entry in tableRuns)if(tableText.Substring(entry.Start,entry.Length)!=entry.Run.Text||mapping.SourcePosition(tableDocument,entry.Run.ContentStart)!=entry.Start)throw new Exception("Table original offsets incorrect for repeated content");
+            Console.WriteLine("PASS pipe tables, empty cells, repeated text, emphasis, alignment and exact source mappings");
         }catch(Exception ex){failure=ex;}});thread.SetApartmentState(ApartmentState.STA);thread.Start();thread.Join();if(failure is not null)throw failure;
     }
 }

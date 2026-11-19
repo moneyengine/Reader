@@ -23,8 +23,10 @@ public sealed class ReaderState
 {
     public string Text { get; set; } = "";
     public bool Dark { get; set; }
+    public string? ThemeMode {get;set;}
     public bool ReducedTransparency { get; set; }
-    public double FontSize { get; set; } = 19;
+    public ReadingPreferences ReadingPreferences {get;set;}=new();
+    public double FontSize { get; set; } = 18;
     public SpeechTuning Tuning { get; set; } = new();
     public List<ReaderHistory> History { get; set; } = new();
     public string? CurrentHistoryId { get; set; }
@@ -32,6 +34,7 @@ public sealed class ReaderState
     public string CurrentSource { get; set; } = "文本";
     public bool SuppressCurrentHistory { get; set; }
     static string PathName => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),"LightReader","native-reader-v2.dat");
+    public static bool HasSavedState(string? path=null)=>File.Exists(path??PathName)||path is null&&File.Exists(Path.Combine(Path.GetDirectoryName(PathName)!,"native-reader.dat"));
     public static ReaderState Load(string? path = null)
     {
         var source=path??PathName;

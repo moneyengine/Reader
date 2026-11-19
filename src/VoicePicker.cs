@@ -73,6 +73,9 @@ public static class VoiceCategories
 /// <summary>Preserves ComboBox selection/API; category headers never select a different voice.</summary>
 public sealed class VoicePicker : ComboBox
 {
+    public static readonly DependencyProperty SelectionContentProperty=DependencyProperty.Register(nameof(SelectionContent),typeof(object),typeof(VoicePicker));
+    public object? SelectionContent{get=>GetValue(SelectionContentProperty);set=>SetValue(SelectionContentProperty,value);}
+    public FrameworkElement? ProviderElement {get;set;}
     readonly TreeView tree=new(){BorderThickness=new Thickness(0),Background=Brushes.Transparent};
     readonly TextBox search=new(){Tag="搜索音色、语言、地区或分类",Margin=new Thickness(0,7,0,9)};
     readonly TextBlock summary=new(){FontSize=11,Margin=new Thickness(3,0,0,8),TextWrapping=TextWrapping.Wrap};
@@ -110,9 +113,10 @@ public sealed class VoicePicker : ComboBox
     public override void OnApplyTemplate(){
         base.OnApplyTemplate();if(GetTemplateChild("PART_Popup") is not Popup popup)return;
         foreach(var control in new FrameworkElement[]{search,tree,summary,empty})if(control.Parent is Panel parent)parent.Children.Remove(control);
-        var border=new Border{CornerRadius=new CornerRadius(19),BorderThickness=new Thickness(1),Padding=new Thickness(12),Margin=new Thickness(0,5,0,0)};
+        var border=new Border{CornerRadius=new CornerRadius(8),BorderThickness=new Thickness(1),Padding=new Thickness(12),Margin=new Thickness(0,5,0,0)};
         border.SetResourceReference(Border.BackgroundProperty,"CardBrush");border.SetResourceReference(Border.BorderBrushProperty,"LineBrush");border.SetResourceReference(ForegroundProperty,"InkBrush");
         popupFrame=border;var dock=new DockPanel();border.Child=dock;
+        if(ProviderElement is {} provider){if(provider.Parent is Panel parent)parent.Children.Remove(provider);DockPanel.SetDock(provider,Dock.Top);dock.Children.Add(provider);provider.Margin=new Thickness(0,0,0,8);}
         var header=new DockPanel();DockPanel.SetDock(header,Dock.Top);dock.Children.Add(header);
         var collapse=new Button{Content="收起分类",FontSize=11,Padding=new Thickness(10,4,10,4),MinHeight=30};DockPanel.SetDock(collapse,Dock.Right);collapse.Click+=(_,_)=>CollapseCategories();header.Children.Add(collapse);
         header.Children.Add(new TextBlock{Text="分类选择音色",FontSize=16,FontWeight=FontWeights.SemiBold,VerticalAlignment=VerticalAlignment.Center});

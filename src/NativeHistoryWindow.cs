@@ -9,7 +9,7 @@ using Microsoft.Win32;
 
 namespace LightReader;
 
-public sealed class NativeHistoryWindow : Window
+public sealed partial class NativeHistoryWindow : Window
 {
     public FrameworkElement Page {get;private set;}=null!;
     public Action? ReturnToReader {get;set;}
@@ -19,6 +19,7 @@ public sealed class NativeHistoryWindow : Window
     readonly TextBox text = new() { IsReadOnly = true, TextWrapping = TextWrapping.Wrap, AcceptsReturn = true, VerticalScrollBarVisibility = ScrollBarVisibility.Auto, BorderThickness = new Thickness(0), Background = Brushes.Transparent, Padding = new Thickness(0), FontSize = 16 };
     readonly Image image = new() { Stretch = Stretch.Uniform, VerticalAlignment=VerticalAlignment.Top };
     readonly TextBlock info = new() { TextWrapping = TextWrapping.Wrap, Margin = new Thickness(2, 0, 0, 12) };
+    readonly TextBlock selectedTitle=new(){FontSize=20,FontWeight=FontWeights.SemiBold,TextWrapping=TextWrapping.Wrap,Margin=new Thickness(0,0,0,12)};
     readonly TextBlock imageInfo = new() { TextWrapping = TextWrapping.Wrap, FontSize = 11, Margin = new Thickness(0, 7, 0, 0) };
     readonly TextBlock empty = new() { Text = "暂无历史记录\n输入文字或截图识字后会自动保存。", TextWrapping = TextWrapping.Wrap, Margin = new Thickness(10), LineHeight = 26 };
     readonly Button load, read, retry, export;
@@ -27,6 +28,7 @@ public sealed class NativeHistoryWindow : Window
     readonly List<MenuItem> selectionActions = new();
     List<ReaderHistory> snapshot = new();
     ReaderHistory? selected;
+    string sourceFilter="all";
     byte[]? selectedImage;
     bool dark, reduced;
 
@@ -34,7 +36,7 @@ public sealed class NativeHistoryWindow : Window
     {
         this.images = images; this.onLoad = onLoad;
         Title = "轻读 · 文字与截图历史"; Width = 1120; Height = 740; MinWidth = 900; MinHeight = 540;
-        WindowStartupLocation = WindowStartupLocation.CenterOwner; FontFamily = new FontFamily("Microsoft YaHei UI"); FontSize = 13; UseLayoutRounding = true;
+        WindowStartupLocation = WindowStartupLocation.CenterOwner; FontFamily = StitchAssets.Body; FontSize = 13; UseLayoutRounding = true;
         GlassWindow.LoadResources(this); SetResourceReference(ForegroundProperty, "InkBrush");
         GlassWindow.Attach(this, () => (dark, reduced));
         var frame = new Border { CornerRadius = new CornerRadius(22), BorderThickness = new Thickness(1), Padding = new Thickness(5) };
@@ -44,6 +46,10 @@ public sealed class NativeHistoryWindow : Window
         var title = GlassWindow.TitleBar(this, "轻读 · 历史记录"); DockPanel.SetDock(title, Dock.Top); root.Children.Add(title);
         var content = new DockPanel { Margin = new Thickness(18, 8, 18, 16) }; root.Children.Add(content);
         Page=content;
+        var filters=new WrapPanel{Margin=new Thickness(0,0,0,12)};DockPanel.SetDock(filters,Dock.Top);content.Children.Add(filters);
+        foreach(var choice in new[]{("全部记录","all"),("纯文本","text"),("包含截图","image")}){
+            var mode=choice.Item2;var button=new Button{Content=choice.Item1,MinHeight=30};button.Click+=(_,_)=>{sourceFilter=mode;Filter();};filters.Children.Add(button);
+        }
         var header = new StackPanel { Orientation = Orientation.Horizontal, Margin = new Thickness(0, 0, 0, 16) };
         header.Children.Add(new TextBlock { Text = "历史记录", FontSize = 24, FontWeight = FontWeights.SemiBold });
         var count = new TextBlock { Text = "最近 30 条 · 原文与截图", Margin = new Thickness(14, 9, 0, 0) }; count.SetResourceReference(TextBlock.ForegroundProperty, "MutedBrush"); header.Children.Add(count);
@@ -73,7 +79,7 @@ public sealed class NativeHistoryWindow : Window
         var lockText = new TextBlock { Text = "\uE72E", FontFamily = new FontFamily("Segoe MDL2 Assets"), VerticalAlignment = VerticalAlignment.Center, Margin = new Thickness(4, 0, 8, 0) };
         var saved = new StackPanel { Orientation = Orientation.Horizontal, VerticalAlignment = VerticalAlignment.Center }; saved.Children.Add(lockText);
         var hint = new TextBlock { Text = "原文与图片已在本机加密保存", FontSize = 11, VerticalAlignment = VerticalAlignment.Center }; hint.SetResourceReference(TextBlock.ForegroundProperty, "MutedBrush"); saved.Children.Add(hint); footer.Children.Add(saved);
-        var grid = new Grid(); grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(258) }); grid.ColumnDefinitions.Add(new ColumnDefinition()); content.Children.Add(grid);
+        var grid = new Grid(); grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(300) }); grid.ColumnDefinitions.Add(new ColumnDefinition()); content.Children.Add(grid);
         var left = new DockPanel { Margin = new Thickness(0, 0, 14, 0) }; grid.Children.Add(left);
         DockPanel.SetDock(search, Dock.Top); left.Children.Add(search); search.ToolTip = "搜索历史文字、来源或识别错误";
         System.Windows.Automation.AutomationProperties.SetName(search, "搜索历史文字");
@@ -84,18 +90,19 @@ public sealed class NativeHistoryWindow : Window
         var thumbImage=new FrameworkElementFactory(typeof(Image));thumbImage.SetValue(FrameworkElement.MarginProperty,new Thickness(3));thumbImage.SetBinding(Image.SourceProperty,new Binding("ImageId"){Converter=new ThumbnailConverter(images)});thumbGrid.AppendChild(thumbImage);thumb.AppendChild(thumbGrid);row.AppendChild(thumb);
         var caption=new FrameworkElementFactory(typeof(StackPanel));caption.SetValue(FrameworkElement.VerticalAlignmentProperty,VerticalAlignment.Center);var preview=new FrameworkElementFactory(typeof(TextBlock));preview.SetBinding(TextBlock.TextProperty,new Binding("Preview"));preview.SetValue(TextBlock.TextWrappingProperty,TextWrapping.Wrap);preview.SetValue(TextBlock.LineHeightProperty,20.0);preview.SetValue(TextBlock.LineStackingStrategyProperty,LineStackingStrategy.BlockLineHeight);preview.SetValue(FrameworkElement.MaxHeightProperty,40.0);preview.SetValue(TextBlock.FontWeightProperty,FontWeights.SemiBold);caption.AppendChild(preview);
         var when=new FrameworkElementFactory(typeof(TextBlock));when.SetBinding(TextBlock.TextProperty,new Binding("Caption"));when.SetValue(TextBlock.TextWrappingProperty,TextWrapping.Wrap);when.SetValue(TextBlock.FontSizeProperty,10.0);when.SetValue(UIElement.OpacityProperty,.75);when.SetValue(FrameworkElement.MarginProperty,new Thickness(0,5,0,0));caption.AppendChild(when);row.AppendChild(caption);records.ItemTemplate=new DataTemplate{VisualTree=row};
-        var right = new DockPanel(); Grid.SetColumn(right, 1); grid.Children.Add(right); DockPanel.SetDock(info, Dock.Top); right.Children.Add(info);
-        var detail = new Grid(); detail.ColumnDefinitions.Add(new ColumnDefinition()); detail.ColumnDefinitions.Add(new ColumnDefinition()); right.Children.Add(detail);
+        var right = new DockPanel(); Grid.SetColumn(right, 1); grid.Children.Add(right);DockPanel.SetDock(selectedTitle,Dock.Top);right.Children.Add(selectedTitle); DockPanel.SetDock(info, Dock.Top); right.Children.Add(info);
+        var detail = new Grid(); detail.ColumnDefinitions.Add(new ColumnDefinition()); detail.ColumnDefinitions.Add(new ColumnDefinition()); detail.RowDefinitions.Add(new RowDefinition{Height=new GridLength(1.2,GridUnitType.Star)});detail.RowDefinitions.Add(new RowDefinition());right.Children.Add(detail);
         Border Card(string heading, UIElement child) {
-            var card = new Border { CornerRadius = new CornerRadius(19), BorderThickness = new Thickness(1), Padding = new Thickness(17) }; card.SetResourceReference(Border.BackgroundProperty, "CardBrush"); card.SetResourceReference(Border.BorderBrushProperty, "LineBrush");
+            var card = new Border { CornerRadius = new CornerRadius(4), BorderThickness = new Thickness(1), Padding = new Thickness(17) }; card.SetResourceReference(Border.BackgroundProperty, "CardBrush"); card.SetResourceReference(Border.BorderBrushProperty, "LineBrush");
             var pane = new DockPanel(); card.Child = pane; var label = new TextBlock { Text = heading, FontSize = 16, FontWeight = FontWeights.SemiBold, Margin = new Thickness(0, 0, 0, 14) }; DockPanel.SetDock(label, Dock.Top); pane.Children.Add(label); pane.Children.Add(child); return card;
         }
-        var textCard = Card("完整文本", text); textCard.Margin = new Thickness(0, 0, 8, 0); detail.Children.Add(textCard);
+        var textCard = Card("完整文本", text); textCard.Margin = new Thickness(0, 0, 0, 8);Grid.SetColumnSpan(textCard,2);detail.Children.Add(textCard);
         var picture = new DockPanel(); DockPanel.SetDock(imageInfo, Dock.Bottom); picture.Children.Add(imageInfo); picture.Children.Add(image);
-        var imageCard = Card("原始截图", picture); Grid.SetColumn(imageCard, 1); detail.Children.Add(imageCard);
+        var imageCard = Card("原始截图", picture);Grid.SetColumnSpan(imageCard,2);Grid.SetRow(imageCard,1);detail.Children.Add(imageCard);
         search.TextChanged += (_, _) => Filter(); records.SelectionChanged += (_, _) => ShowSelected();
         Closed += (_, _) => { image.Source = null; selectedImage = null; };
         Refresh(Array.Empty<ReaderHistory>(), true);
+        try{BuildStitchHistory(onDelete,onClear,onRecognize);}catch{Close();throw;}
     }
     public void SetAppearance(bool isDark, bool isReduced) { dark = isDark; reduced = isReduced; GlassWindow.Apply(this, dark, reduced); }
     public void Refresh(IEnumerable<ReaderHistory> entries, bool force = false) {
@@ -103,13 +110,14 @@ public sealed class NativeHistoryWindow : Window
     }
     void Filter() {
         var id = selected?.Id; var q = search.Text.Trim();
-        var filtered = snapshot.Where(x => x.Text.Contains(q, StringComparison.OrdinalIgnoreCase) || x.Source.Contains(q, StringComparison.OrdinalIgnoreCase) || (x.Note ?? "").Contains(q, StringComparison.OrdinalIgnoreCase)).ToList();
+        var filtered = snapshot.Where(x=>sourceFilter=="all"||sourceFilter=="text"&&x.ImageId is null||sourceFilter=="image"&&x.ImageId is not null).Where(x => x.Text.Contains(q, StringComparison.OrdinalIgnoreCase) || x.Source.Contains(q, StringComparison.OrdinalIgnoreCase) || (x.Note ?? "").Contains(q, StringComparison.OrdinalIgnoreCase)||x.Time.LocalDateTime.ToString("yyyy-MM-dd HH:mm").Contains(q,StringComparison.OrdinalIgnoreCase)).ToList();
         records.ItemsSource = filtered; records.SelectedItem = filtered.FirstOrDefault(x => x.Id == id) ?? filtered.FirstOrDefault();
         empty.Text = q.Length == 0 ? "暂无历史记录\n输入文字或截图识字后会自动保存。" : "没有匹配的记录\n请换个关键词。";
-        empty.Visibility = filtered.Count == 0 ? Visibility.Visible : Visibility.Collapsed; ShowSelected();
+        empty.Visibility = filtered.Count == 0 ? Visibility.Visible : Visibility.Collapsed; ShowSelected();RefreshHistoryCounts();
     }
     void ShowSelected() {
         selected = records.SelectedItem as ReaderHistory; selectedImage = null; image.Source = null;
+        selectedTitle.Text=selected is null?"选择归档记录":selected.Text.Split(new[]{'\r','\n'},StringSplitOptions.RemoveEmptyEntries).FirstOrDefault()?.Trim('#','*',' ','`')??"图片记录";
         info.Text = selected?.Caption ?? "选择左侧记录可查看完整文字和原始截图。"; text.Text = selected?.Text ?? "";
         if (selected?.Note is string note) info.Text += "\n" + note;
         imageInfo.Text = selected?.ImageId is null ? "此记录没有原图。旧版未保存的截图无法补回。" : "正在读取原图…";
@@ -123,12 +131,13 @@ public sealed class NativeHistoryWindow : Window
         load.IsEnabled = selected is not null; read.IsEnabled = !string.IsNullOrWhiteSpace(selected?.Text);
         retry.IsEnabled = export.IsEnabled = selectedImage is not null;
         foreach (var action in selectionActions) action.IsEnabled = selected is not null;
+        RefreshMarkdownPreview();
     }
     void LoadSelected(bool speak) { if (selected is null) return; var item = selected; Leave(); onLoad(item, speak); }
     void ExportImage() {
         if (selectedImage is null) return;
-        string ext = selectedImage.Length > 3 && selectedImage[0] == 0xff && selectedImage[1] == 0xd8 ? ".jpg" : selectedImage.Length > 3 && selectedImage[0] == 0x42 && selectedImage[1] == 0x4d ? ".bmp" : ".png";
-        var dialog = new SaveFileDialog { FileName = "历史原图" + ext, Filter = "图片文件|*" + ext }; if (dialog.ShowDialog(this) == true) File.WriteAllBytes(dialog.FileName, selectedImage);
+        using var memory=new MemoryStream(selectedImage);var decoder=BitmapDecoder.Create(memory,BitmapCreateOptions.PreservePixelFormat,BitmapCacheOption.OnLoad);var ext=decoder.CodecInfo.FileExtensions.Split(',')[0];
+        var dialog = new SaveFileDialog { FileName = "历史原图" + ext, Filter = "图片文件|*" + ext }; if (dialog.ShowDialog(Owner??this) == true) File.WriteAllBytes(dialog.FileName, selectedImage);
     }
     sealed class ThumbnailConverter(HistoryImages images) : IValueConverter {
         readonly Dictionary<string, ImageSource> cache = new();

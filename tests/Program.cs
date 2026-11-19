@@ -5,7 +5,19 @@ using System.Net.WebSockets;
 using System.Text;
 using System.Text.Json;
 
+internal static class Program
+{
+    [STAThread]
+    static void Main(string[] args){System.Windows.Forms.WindowsFormsSynchronizationContext.AutoInstall=false;Run(args).GetAwaiter().GetResult();}
+    static async Task Run(string[] args)
+    {
+
+if (args.Contains("--check-reading-typography")) { try { await ReadingTypographyChecks.Run(); } catch(Exception ex) { Console.Error.WriteLine(ex); Environment.ExitCode=1; } return; }
+if (args.Contains("--check-markdown-replacement")) { try { await MarkdownReplacementChecks.Run(); } catch(Exception ex) { Console.Error.WriteLine(ex); Environment.ExitCode=1; } return; }
+if (args.Contains("--check-slim-reader")) { try { await SlimReaderChecks.Run(); } catch(Exception ex) { Console.Error.WriteLine(ex); Environment.ExitCode=1; } return; }
+if (args.Contains("--check-reading-interactions")) { try { await ReadingInteractionChecks.Run(); } catch(Exception ex) { Console.Error.WriteLine(ex); Environment.ExitCode=1; } return; }
 if (args.Contains("--check-edge-completion")) { try { await EdgeTtsChecks.Native(true); } catch(Exception ex) { Console.Error.WriteLine(ex); Environment.ExitCode=1; } return; }
+if (args.Contains("--check-stitch-html")) { try { await StitchHtmlChecks.Run(Path.GetFullPath("artifacts/stitch-web-prototype")); } catch(Exception ex) { Console.Error.WriteLine(ex); Environment.ExitCode=1; } return; }
 if (args.Contains("--check-markdown")) { MarkdownChecks.Run(); return; }
 if (args.Contains("--check-speech-filter")) { try { SpeechTextChecks.Run(); } catch(Exception ex) { Console.Error.WriteLine(ex); Environment.ExitCode=1; } return; }
 if (args.Contains("--check-categories-tray")) { try { await CategoryTrayChecks.Native(); } catch(Exception ex) { Console.Error.WriteLine(ex); Environment.ExitCode=1; } return; }
@@ -285,6 +297,8 @@ using (var player = new Playback())
     player.Stop();
 }
 Console.WriteLine($"All {passed} checks passed.");
+    }
+}
 
 sealed class FakeHttp : HttpMessageHandler
 {

@@ -67,7 +67,7 @@ static class CategoryTrayChecks
 
                         var b=new RenderTargetBitmap((int)Math.Ceiling(popup.Child.RenderSize.Width*1.5),(int)Math.Ceiling(popup.Child.RenderSize.Height*1.5),144,144,PixelFormats.Pbgra32);b.Render(popup.Child);var enc=new PngBitmapEncoder();enc.Frames.Add(BitmapFrame.Create(b));Directory.CreateDirectory("artifacts");using(var file=File.Create("artifacts/voice-categories.png"))enc.Save(file);picker.IsDropDownOpen=false;
                         picker.IsDropDownOpen=true;await Task.Delay(50);
-                        var inlineSearch=Descendants(popup.Child).OfType<TextBox>().Single();inlineSearch.Text="中文 ";if(inlineSearch.Text!="中文 "||Find<TextBox>("VoiceSearch").Text!="中文 ")throw new Exception("Typing space in category search was lost");
+                        var inlineSearch=Descendants(popup.Child).OfType<TextBox>().Single(x=>x.Tag?.ToString()=="搜索音色、语言、地区或分类");inlineSearch.Text="中文 ";if(inlineSearch.Text!="中文 "||Find<TextBox>("VoiceSearch").Text!="中文 ")throw new Exception("Typing space in category search was lost");
                         inlineSearch.Text="中文 女声";if(picker.Categories.SelectMany(x=>x.Descendants()).Where(x=>x.Voice is not null).Any(x=>!x.Path.Contains("女声")))throw new Exception("Popup multiword search failed");picker.Filter("");picker.IsDropDownOpen=false;
                         var savedVoices=picker.ItemsSource;var synthetic=Enumerable.Range(0,10000).Select(i=>new VoiceChoice($"Stress voice {i}",$"stress-{i}")).ToList();
                         picker.ItemsSource=synthetic;picker.SelectedIndex=0;picker.SetCatalogue("Cloud",synthetic);picker.Filter("Stress");

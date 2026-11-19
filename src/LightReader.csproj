@@ -13,7 +13,13 @@
 
   <ItemGroup>
     <PackageReference Include="Markdig" Version="0.41.3" />
+    <PackageReference Include="AvalonEdit" Version="6.3.1.120" />
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.4314.35" />
     <Resource Include="Assets/LightReader.ico" />
+    <Resource Include="Assets/Fonts/*.ttf" />
+    <Resource Include="Assets/Fonts/*.otf" />
+    <EmbeddedResource Include="Assets/Fonts/MaterialSymbolsOutlined.codepoints" />
+    <Content Include="Assets/Fonts/*LICENSE.txt" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
     <Using Remove="System.Windows.Forms" />
     <Using Remove="System.Drawing" />
     <EmbeddedResource Include="Data/voices.json" />

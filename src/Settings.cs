@@ -12,7 +12,7 @@ public sealed class Settings
     public string Model { get; set; } = "";
     public string OcrProvider { get; set; } = "Local";
     public string OcrLanguage { get; set; } = "auto";
-    public string SpeechProvider { get; set; } = "Windows";
+    public string SpeechProvider { get; set; } = "Edge";
     public string WindowsVoice { get; set; } = "";
     public string EdgeVoice { get; set; } = "zh-CN-XiaoxiaoNeural";
     public string EdgePython { get; set; } = "";

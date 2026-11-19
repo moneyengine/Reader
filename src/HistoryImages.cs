@@ -7,16 +7,17 @@ namespace LightReader;
 public sealed class HistoryImages
 {
     readonly string folder;
+    public long? StoredBytes {get{try{return Directory.Exists(folder)?Directory.EnumerateFiles(folder,"*.dat").Sum(path=>new FileInfo(path).Length):0;}catch(IOException){return null;}catch(UnauthorizedAccessException){return null;}}}
     public HistoryImages(string? statePath=null)=>folder=Path.Combine(statePath is null?Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),"LightReader"):Path.GetDirectoryName(statePath)!,"history-images");
     static bool Valid(string id)=>id.Length==64&&id.All(Uri.IsHexDigit);
-    string FileName(string id)=>Valid(id)?Path.Combine(folder,id.ToLowerInvariant()+".dat"):throw new InvalidOperationException("历史图片 ID 无效。");
+    string FileName(string id)=>Valid(id)?Path.Combine(folder,id.ToLowerInvariant()+".dat"):throw new InvalidOperationException("图片 ID 无效。");
     public string Save(byte[] image)
     {
-        if(image.Length==0||image.Length>32*1024*1024)throw new InvalidOperationException("历史图片为空或超过 32 MB。");
+        if(image.Length==0||image.Length>32*1024*1024)throw new InvalidOperationException("图片为空或超过 32 MB。");
         var id=Convert.ToHexString(SHA256.HashData(image)).ToLowerInvariant();var file=FileName(id);
         if(File.Exists(file))return id;
         Directory.CreateDirectory(folder);
-        if(Directory.EnumerateFiles(folder,"*.dat").Sum(x=>new FileInfo(x).Length)+image.Length>160L*1024*1024)throw new InvalidOperationException("历史图片已超过 160 MB，请在历史窗口删除部分记录后重试。");
+        if(Directory.EnumerateFiles(folder,"*.dat").Sum(x=>new FileInfo(x).Length)+image.Length>160L*1024*1024)throw new InvalidOperationException("图片存储已超过 160 MB，请清空当前文档后重试。");
         File.WriteAllBytes(file+".tmp",ProtectedData.Protect(image,null,DataProtectionScope.CurrentUser));File.Move(file+".tmp",file,true);return id;
     }
     public byte[]? Load(string? id)

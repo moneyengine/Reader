@@ -52,6 +52,16 @@ static class SpeechTextChecks
         }
         if(preserved.Contains("FVector2D")||preserved.Contains('`'))throw new Exception("Code block or inline delimiters still read");
         if(!SpeechText.Filter("``value ` nested``").Contains("value"))throw new Exception("Double-backtick inline content lost");
+        var sampleWithRules="正文 https://example.com 😀 **重点**\n\n```cpp\nconst int number=42;\n```\n\n`CosHalfAngleSq` 继续。";
+        if(!SpeechText.Filter(sampleWithRules,new ReadingPreferences(SkipCode:false)).Contains("number"))throw new Exception("Code switch ignored");
+        if(!SpeechText.Filter(sampleWithRules,new ReadingPreferences(SkipLinks:false)).Contains("example.com"))throw new Exception("Link switch ignored");
+        if(!SpeechText.Filter(sampleWithRules,new ReadingPreferences(SkipDecorations:false)).Contains("😀"))throw new Exception("Decoration switch ignored");
+        if(SpeechText.Filter(sampleWithRules,new ReadingPreferences(KeepInlineTerms:false)).Contains("CosHalfAngleSq"))throw new Exception("Inline-term switch ignored");
+        if(SpeechText.Filter(sampleWithRules,new ReadingPreferences(false,false,false,true))!=sampleWithRules)throw new Exception("All filtering disabled still modifies source");
+        var profile=System.IO.Path.Combine(System.IO.Path.GetTempPath(),"ReaderPreferencesTest",Guid.NewGuid().ToString("N"),"state.dat");
+        var preferences=new ReadingPreferences(false,true,false,true,false);new ReaderState{ReadingPreferences=preferences}.Save(profile);
+        if(ReaderState.Load(profile).ReadingPreferences!=preferences)throw new Exception("Reading preferences did not persist");
+        Console.WriteLine("PASS independent filter switches, unmodified source when disabled and encrypted preference roundtrip");
         Console.WriteLine("PASS code blocks skipped; inline terms after block retained, including CosHalfAngleSq; original offsets preserved");
         Console.WriteLine("PASS file paths: drive, UNC, Unix, relative, quoted spaces and line numbers; labels and surrounding prose preserved");
         Console.WriteLine("PASS speech filtering: URLs, decoration, emoji/ZWJ/flags/keycaps; original offsets, punctuation and numbers preserved");
